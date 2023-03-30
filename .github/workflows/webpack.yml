@@ -43,7 +43,7 @@ jobs:
         user: ${{ secrets.SERVER_USERNAME }}
         pass: ${{ secrets.SERVER_PASSWORD }}
         run: |
-         sudo tar -xzvf /home/user/project.tar.gz -c /www/wwwroot/nav.onestyle.top --strip-components=1 dist/
+         sudo tar -xzvf /home/user/project.tar.gz /www/wwwroot/nav.onestyle.top --strip-components=1 dist/
 #     - name: Extract package on server
 #       run: sshpass -p ${{ secrets.SERVER_PASSWORD }} ssh root@${{ secrets.SERVER_HOST }}
 #       run: sshpass -p ${{ secrets.SERVER_PASSWORD }} ssh root@${{ secrets.SERVER_HOST }} 'sudo tar -xzvf /home/user/project.tar.gz -C /home/user'
