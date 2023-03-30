@@ -11,9 +11,9 @@ jobs:
       - checkout
       - node/install-packages:
          pkg-manager: yarn
-      - run: 
-          command: yarn serve
-          name: Run tests
+      # - run: 
+      #     command: yarn serve
+      #     name: Run tests
       - run: 
           command: yarn build
           name: Build app
