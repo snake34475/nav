@@ -66,6 +66,6 @@ workflows:
             - Fetch-Code
       - Now-completed:
           requires:
-            - Holo-for-Approval
+            - Hold-for-Approval
 
 
