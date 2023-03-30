@@ -37,7 +37,7 @@ jobs:
         target: /home/user
 
     - name: Extract package on server
-      run: sshpass -p ${{ secrets.SERVER_PASSWORD }} ssh user@${{ secrets.SERVER_HOST }} 'tar -xzf /home/user/project.tar.gz -C /www/wwwroot/nav.onestyle.top'
+      run: sshpass -p ${{ secrets.SERVER_PASSWORD }} ssh user@${{ secrets.SERVER_HOST }} 'tar -xzvf /home/user/project.tar.gz -C /www/wwwroot/nav.onestyle.top --strip-components=1 dist/'
 
 #     - name: Start server on server
 #       run: sshpass -p ${{ secrets.SERVER_PASSWORD }} ssh user@${{ secrets.SERVER_HOST }} 'cd /home/user/project && yarn start'
