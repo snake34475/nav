@@ -1,34 +1,39 @@
 version: 2.1
 
 orbs:
-  node: circleci/node@4.1.0
+   node: circleci/node@5.0.2
 
 jobs:
-  test:
-    executor:
-      name: node/default
-      tag: 14.18.1-buster
+  build_and_test:
+    executor: node/default
     steps:
       - checkout
-      - node/install-packages
-      - run: npm install
-      - run: npm serve
-  build:
-    executor:
-      name: node/default
-      tag: 14.18.1-buster
-    steps:
-      - checkout
-      - node/install-packages
-      - run: npm install
-      - run: npm run build
+      - node/install-packages:
+         pkg-manager: yarn
+      - run: 
+          command: yarn serve
+          name: Run tests
+      - run: 
+          command: yarn build
+          name: Build app
       - persist_to_workspace:
-          root: /app
+          root: ~/project
           paths:
-            - dist
+            - .
   deploy:
     machine: true
     steps:
       - attach_workspace:
-          at: /app
+          at: ~/project
       - run: scp -r dist/ root@http://81.68.128.43:8888/:/www/wwwroot/nav.onestyle.top
+
+workflows:
+  test_my_app:
+    jobs:
+      - build_and_test
+      - deploy:
+          requires:
+            - build_and_test # only deploy if the build_and_test job has completed
+          filters:
+            branches:
+              only: main # only deploy when on main
