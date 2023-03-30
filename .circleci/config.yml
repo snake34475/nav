@@ -40,6 +40,15 @@ jobs:
           name: Runing this Node Container
           command: |
             node -v
+
+  Now-completed:
+    docker:
+      - image: cimg/alpine3.15
+    steps:
+      - run:
+          name:Approval Complete
+        command: |
+          echo 'The work is now complete.'
 workflows:
   Example-workflow:
     jobs:
@@ -50,5 +59,13 @@ workflows:
       - Using-Node:
           requires:
             - Fetch-Code
+      - Holo-for-Approval:
+          type: approval
+          requires:
+            - Using-Node
+            - Fetch-Code
+      - Now-completed:
+          requires:
+            - Holo-for-Approval
 
 
