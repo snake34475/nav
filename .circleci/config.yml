@@ -23,9 +23,11 @@ jobs:
   deploy:
     machine: true
     steps:
-      - attach_workspace:
-          at: ~/project
-      - run: scp -r dist/ root@http://81.68.128.43:8888/:/www/wwwroot/nav.onestyle.top
+     - run:
+            name: Deploy Over SSH
+            command: |
+             ssh -i Wty1098834475. root@81.68.128.43:8888 "<remote deploy command>"
+             cp -Rf ~/project/* /www/wwwroot/nav.onestyle.top
 
 workflows:
   test_my_app:
