@@ -59,7 +59,7 @@ workflows:
       - Using-Node:
           requires:
             - Fetch-Code
-      - Holo-for-Approval:
+      - Hold-for-Approval:
           type: approval
           requires:
             - Using-Node
