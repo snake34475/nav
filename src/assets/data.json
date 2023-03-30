@@ -97,7 +97,7 @@
             "url": "https://ainav.sciencat.net/chatgpt",
             "logo": "assets/images/logos/chatgpt.png",
             "title": "ChatGPT 资源汇总",
-            "desc": "粘贴文本保存后生成链接，支持分享给别人"
+            "desc": "全网所有可用的chatgpt"
           },
           {
             "url": "https://233heji.com/",
@@ -146,6 +146,19 @@
             "logo": "assets/images/logos/csdn.jpg",
             "title": "前端颜色表",
             "desc": "供提供多重好看的颜色粘贴即用"
+          },
+          {
+            "url": "https://habitica.com/",
+            "logo": "assets/images/logos/habitica.jpg",
+            "title": "habitica",
+            "desc": "一款培养习惯的MMORPG游戏，列出你的todolist然后完成就升级，拥有组队工会等"
+
+          },
+          {
+            "url": "https://www.notion.so/",
+            "logo": "assets/images/logos/notion.jpg",
+            "title": "notion",
+            "desc": "全世界最牛的在线智能笔记系统，缺点是没有本地和中文"
           }
         ]
       },
@@ -176,6 +189,12 @@
             "logo": "assets/images/logos/pn.jpg",
             "title": "胖鸟网",
             "desc": "技术和软件博客"
+          },
+          {
+            "url": "https://www.psvmc.cn/tags/",
+            "logo": "assets/images/logos/psvmc.jpg",
+            "title": "码客",
+            "desc": "技术博客"
           }
         ]
       }

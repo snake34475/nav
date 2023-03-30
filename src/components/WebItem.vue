@@ -49,6 +49,9 @@ i {
   margin-right: 7px;
 }
 
+.box2{
+  border-radius: 10px;
+}
 .box2 .animation-element {
   transition: transform 0.5s;
 }
