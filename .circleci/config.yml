@@ -43,10 +43,10 @@ jobs:
 
   Now-completed:
     docker:
-      - image: cimg/alpine3.15
+      - image: alpine3.15
     steps:
       - run:
-          name:Approval Complete
+        name: Approval Complete
         command: |
           echo 'The work is now complete.'
 workflows:
