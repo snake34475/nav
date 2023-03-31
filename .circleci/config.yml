@@ -27,7 +27,7 @@ jobs:
           name: Deploy Over SSH
           command: |
              ls
-             rsync -avz dist/* root@81.68.128.43:/www/wwwroot/nav.onestyle.top
+             rsync -avz dist/* ${SSH_USER}@${SSH_HOST}:/www/wwwroot/nav.onestyle.top
             #  ssh root@81.68.128.43 cp -Rf dist /www/wwwroot/nav.onestyle.top
            
 workflows:
