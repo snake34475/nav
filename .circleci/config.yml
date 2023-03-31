@@ -26,8 +26,9 @@ jobs:
       - run:
           name: Deploy Over SSH
           command: |
+            #  ssh $SSH_USER@$SSH_HOST
              echo "Starting deployment"
-             ssh $SSH_USER@$SSH_HOST
+             ssh root@81.68.128.43
              cp -Rf ~/project/* /www/wwwroot/nav.onestyle.top
              echo "Deployment finished"
            
