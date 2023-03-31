@@ -26,7 +26,7 @@ jobs:
       - run:
           name: Deploy Over SSH
           command: |
-             ssh root@81.68.128.43 cp -Rf ~/project/* /www/wwwroot/nav.onestyle.top
+             ssh root@81.68.128.43 cp -Rf * /www/wwwroot/nav.onestyle.top
            
 workflows:
   test_my_app:
