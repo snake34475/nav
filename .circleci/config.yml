@@ -12,9 +12,6 @@ jobs:
       - node/install-packages:
          pkg-manager: yarn
       - run: 
-          command: yarn serve
-          name: Run tests
-      - run: 
           command: yarn build
           name: Build app
       - persist_to_workspace:
@@ -26,8 +23,14 @@ jobs:
     steps:
       - attach_workspace:
           at: ~/project
-      - run: scp -r dist/ root@http://81.68.128.43:8888/:/www/wwwroot/nav.onestyle.top
-
+      - run:
+          name: Deploy Over SSH
+          command: |
+             echo "Starting deployment"
+             ssh $SSH_USER@$SSH_HOST
+             cp -Rf ~/project/* /www/wwwroot/nav.onestyle.top
+             echo "Deployment finished"
+           
 workflows:
   test_my_app:
     jobs:
