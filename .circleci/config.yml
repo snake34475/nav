@@ -1,46 +1,46 @@
-version: 2.1
+# version: 2.1
 
-orbs:
-   node: circleci/node@4.3.0
+# orbs:
+#    node: circleci/node@4.3.0
 
-jobs:
-  build_and_test:
-    docker:
-      - image: circleci/node:16
-    steps:
-      - checkout
-      - node/install-packages:
-         pkg-manager: yarn
-      - run: 
-          command: yarn build
-          name: Build app
-      - persist_to_workspace:
-          root: ~/project
-          paths:
-            - .
-  deploy:
-    machine: true
-    steps:
-      - attach_workspace:
-          at: ~/project
-      - run:
-          name: Deploy Over SSH
-          command: |
-             ls
-             rsync -avz dist/* ${SSH_USER}@${SSH_HOST}:/www/wwwroot/nav.onestyle.top
-            #  ssh root@81.68.128.43 cp -Rf dist /www/wwwroot/nav.onestyle.top
+# jobs:
+#   build_and_test:
+#     docker:
+#       - image: circleci/node:16
+#     steps:
+#       - checkout
+#       - node/install-packages:
+#          pkg-manager: yarn
+#       - run: 
+#           command: yarn build
+#           name: Build app
+#       - persist_to_workspace:
+#           root: ~/project
+#           paths:
+#             - .
+#   deploy:
+#     machine: true
+#     steps:
+#       - attach_workspace:
+#           at: ~/project
+#       - run:
+#           name: Deploy Over SSH
+#           command: |
+#              ls
+#              rsync -avz dist/* ${SSH_USER}@${SSH_HOST}:/www/wwwroot/nav.onestyle.top
+#             #  ssh root@81.68.128.43 cp -Rf dist /www/wwwroot/nav.onestyle.top
            
-workflows:
-  test_my_app:
-    jobs:
-      - build_and_test
-      - Hold-for-Approval:
-          type: approval
-          requires:
-            - build_and_test
-      - deploy:
-          requires:
-            - Hold-for-Approval # only deploy if the build_and_test job has completed
-          filters:
-            branches:
-              only: main # only deploy when on main
+# workflows:
+#   test_my_app:
+#     jobs:
+#       - build_and_test
+#       - Hold-for-Approval:
+#           type: approval
+#           requires:
+#             - build_and_test
+#       - deploy:
+#           requires:
+#             - Hold-for-Approval # only deploy if the build_and_test job has completed
+#           filters:
+#             branches:
+#               only: main # only deploy when on main
