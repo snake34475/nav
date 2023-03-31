@@ -27,7 +27,7 @@ jobs:
           name: Deploy Over SSH
           command: |
              ls
-             scp dist/* user@server:/www/wwwroot/nav.onestyle.top
+             scp dist/* root@81.68.128.43:/www/wwwroot/nav.onestyle.top
             #  ssh root@81.68.128.43 cp -Rf dist /www/wwwroot/nav.onestyle.top
            
 workflows:
