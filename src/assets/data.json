@@ -195,6 +195,12 @@
             "logo": "assets/images/logos/psvmc.jpg",
             "title": "码客",
             "desc": "技术博客"
+          },
+          {
+            "url": "https://dajiayouxuan.com/navs",
+            "logo": "assets/images/logos/chuangke.jpg",
+            "title": "创客工具",
+            "desc": "聚合类"
           }
         ]
       }
