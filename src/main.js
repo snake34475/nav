@@ -16,17 +16,16 @@ Vue.config.productionTip = false
 Vue.use(VueRouter)
 
 const routes = [
-  { path: '/', component: Index },
-  { path: '/about', component: About }
+    {path: '/', component: Index},
+    {path: '/about', component: About}
 ]
 
 const router = new VueRouter({
-  routes,
-  mode: 'history'
+    routes,
+    mode: 'history'
 })
-
-
+console.log("道拐")
 new Vue({
-  render: h => h(App),
-  router
+    render: h => h(App),
+    router
 }).$mount('#app')
