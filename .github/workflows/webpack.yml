@@ -23,6 +23,7 @@ jobs:
 
 #     - name: Build project
 #       run: yarn build
+      
     - name: rename
     - run: mv ./public ./nav.onestyle.top
     
