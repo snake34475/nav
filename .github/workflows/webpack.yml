@@ -31,5 +31,5 @@ jobs:
         username: ${{ secrets.SERVER_USERNAME }}
         key: ${{ secrets.SSH_KEY }}
 #         source: dist/*
-        src: ./public/*
-        remote: /www/wwwroot/nav.onestyle.top
+        source: ./public/*
+        target: /www/wwwroot/nav.onestyle.top
