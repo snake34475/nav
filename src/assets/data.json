@@ -91,6 +91,12 @@
             "logo": "assets/images/logos/github.png",
             "title": "服务器自托管合集",
             "desc": "服务器自托管合集"
+          },
+          {
+            "url": "https://novelai.dev/",
+            "logo": "assets/images/logos/medialoot.png",
+            "title": "一个以技术宅为核心的 AI 绘画爱好者群体",
+            "desc": "一个以技术宅为核心的 AI 绘画爱好者群体"
           }
         ]
       },
