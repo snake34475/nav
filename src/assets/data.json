@@ -1,94 +1,57 @@
 [
   {
-    "name": "博主网站",
-    "en_name": "Tutorial",
-    "icon": "linecons-pencil",
-    "children": [
-      {
-        "name": "工具类",
-        "en_name": "Design Guidelines",
-        "web": [
-          {
-            "url": "http://81.68.128.43:7922/",
-            "logo": "assets/images/logos/niceui.png",
-            "title": "秘密分享链接",
-            "desc": "粘贴文本保存后生成链接，支持分享给别人"
-          },
-          {
-            "url": "http://81.68.128.43:7923/",
-            "logo": "assets/images/logos/mimi.png",
-            "title": "链接收藏或随笔",
-            "desc": "博主一些链接或者随笔的记录"
-          },
-          {
-            "url": "https://chatgpt.onestyle.top/",
-            "logo": "assets/images/logos/chatgpt.png",
-            "title": "chatgpt",
-            "desc": "人工智能聊天工具，填写的博主的key，请节约使用"
-          }
-        ]
-      },
-      {
-        "name": "游戏类",
-        "en_name": "Design FM",
-        "web": [
-          {
-            "url": "http://resetseer.onestyle.top/",
-            "logo": "assets/images/logos/xinchangjing.png",
-            "title": "新昌景",
-            "desc": "吸取了重新功夫派的教训，传统耐玩的像素2d风，结合永劫无间的连招方式"
-          },
-          {
-            "url": "http://gongfu.onestyle.top/",
-            "logo": "assets/images/logos/resetgongfu.png",
-            "title": "重启功夫派",
-            "desc": "基于淘米网功夫派游戏的复刻，游戏目前支持wasd移动，j攻击k跳跃以及多种技能连招"
-          },
-          {
-            "url": "http://mmorpg.onestyle.top/",
-            "logo": "assets/images/logos/yineng.png",
-            "title": "多人socket游戏",
-            "desc": "想做一款MMORPG，目前只用来练习多人登录与移动，有bug，慎入"
-          }
-        ]
-      },
-      {
-        "name": "个人博客",
-        "en_name": "UX",
-        "web": [
-          {
-            "url": "https://wiki.onestyle.top/",
-            "logo": "assets/images/logos/quanhan.png",
-            "title": "个人博客",
-            "desc": "博主技术博客，写的超烂，劝你别看（国外镜像）"
-          },
-          {
-            "url": "https://www.onestyle.top/",
-            "logo": "assets/images/logos/quanhan.png",
-            "title": "个人博客",
-            "desc": "博主技术博客，写的超烂，劝你别看（国内镜像）"
-          },
-          {
-            "url": "http://wang-tengyao.gitee.io/",
-            "logo": "assets/images/logos/gitee.png",
-            "title": "个人gitee博客",
-            "desc": "博主技术博客，写的超烂，劝你别看（看不了就是没过审）"
-          },
-          {
-            "url": "https://snake34475.github.io/",
-            "logo": "assets/images/logos/github.png",
-            "title": "个人github博客",
-            "desc": "gitee的镜像（前面三个访问不了这个必定能访问）"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "name": "常用网站",
     "en_name": "Tutorial",
     "icon": "linecons-pencil",
     "children": [
+      {
+        "name": "日常辅助工具",
+        "en_name": "Design FM",
+        "web": [
+          {
+            "url": "https://chatbot.theb.ai/",
+            "logo": "assets/images/logos/bai.jpg",
+            "title": "BAI CHAT",
+            "desc": "国内免费的chatgpt3.5"
+          },
+          {
+            "url": "https://xc.com/",
+            "logo": "//s2.loli.net/2023/04/08/Rk6d7TWCpLPBJbw.png",
+            "title": "xc",
+            "desc": "备用chatgpt 但是使用的是gpt-3"
+          },
+          {
+            "url": "https://aitxt.io/#/",
+            "logo": "//s2.loli.net/2023/04/08/BeLWzT9OocEl1dI.png",
+            "title": "aitxt",
+            "desc": "基于 Ai 来生成您想要的文案"
+          },
+          {
+            "url": "https://blog.csdn.net/dejing6575/article/details/101473932",
+            "logo": "assets/images/logos/csdn.jpg",
+            "title": "前端颜色表",
+            "desc": "供提供多重好看的颜色粘贴即用"
+          },
+          {
+            "url": "https://habitica.com/",
+            "logo": "assets/images/logos/habitica.jpg",
+            "title": "habitica",
+            "desc": "一款培养习惯的MMORPG游戏，列出你的todolist然后完成就升级，拥有组队工会等"
+          },
+          {
+            "url": "https://www.notion.so/",
+            "logo": "assets/images/logos/notion.jpg",
+            "title": "notion",
+            "desc": "全世界最牛的在线智能笔记系统，缺点是没有本地和中文"
+          },
+          {
+            "url": "https://zh.loader.to/1/",
+            "logo": "//s2.loli.net/2023/04/08/GyiOkI2RPQ71Jsg.png",
+            "title": "youtub下载工具",
+            "desc": "全世界最牛的在线智能笔记系统，缺点是没有本地和中文"
+          }
+        ]
+      },
       {
         "name": "合集类",
         "en_name": "Design Guidelines",
@@ -132,37 +95,6 @@
         ]
       },
       {
-        "name": "日常辅助工具",
-        "en_name": "Design FM",
-        "web": [
-          {
-            "url": "https://chatbot.theb.ai/",
-            "logo": "assets/images/logos/bai.jpg",
-            "title": "BAI CHAT",
-            "desc": "国内免费的chatgpt3.5"
-          },
-          {
-            "url": "https://blog.csdn.net/dejing6575/article/details/101473932",
-            "logo": "assets/images/logos/csdn.jpg",
-            "title": "前端颜色表",
-            "desc": "供提供多重好看的颜色粘贴即用"
-          },
-          {
-            "url": "https://habitica.com/",
-            "logo": "assets/images/logos/habitica.jpg",
-            "title": "habitica",
-            "desc": "一款培养习惯的MMORPG游戏，列出你的todolist然后完成就升级，拥有组队工会等"
-
-          },
-          {
-            "url": "https://www.notion.so/",
-            "logo": "assets/images/logos/notion.jpg",
-            "title": "notion",
-            "desc": "全世界最牛的在线智能笔记系统，缺点是没有本地和中文"
-          }
-        ]
-      },
-      {
         "name": "游戏类",
         "en_name": "Design FM",
         "web": [
@@ -201,6 +133,79 @@
             "logo": "assets/images/logos/chuangke.jpg",
             "title": "创客工具",
             "desc": "聚合类"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "博主网站",
+    "en_name": "Tutorial",
+    "icon": "linecons-pencil",
+    "children": [
+      {
+        "name": "工具类",
+        "en_name": "Design Guidelines",
+        "web": [
+          {
+            "url": "https://chatgpt.onestyle.top/",
+            "logo": "assets/images/logos/chatgpt.png",
+            "title": "(已失效)chatgpt",
+            "desc": "人工智能聊天工具，填写的博主的key，请节约使用"
+          },
+          {
+            "url": "http://81.68.128.43:7922/",
+            "logo": "assets/images/logos/niceui.png",
+            "title": "(已失效)秘密分享链接",
+            "desc": "粘贴文本保存后生成链接，支持分享给别人"
+          },
+          {
+            "url": "http://81.68.128.43:7923/",
+            "logo": "assets/images/logos/mimi.png",
+            "title": "(已失效)链接收藏或随笔",
+            "desc": "博主一些链接或者随笔的记录"
+          }
+        ]
+      },
+      {
+        "name": "游戏类",
+        "en_name": "Design FM",
+        "web": [
+          {
+            "url": "http://resetseer.onestyle.top/",
+            "logo": "assets/images/logos/xinchangjing.png",
+            "title": "新昌景",
+            "desc": "吸取了重新功夫派的教训，传统耐玩的像素2d风，结合永劫无间的连招方式"
+          },
+          {
+            "url": "http://gongfu.onestyle.top/",
+            "logo": "assets/images/logos/resetgongfu.png",
+            "title": "重启功夫派",
+            "desc": "基于淘米网功夫派游戏的复刻，游戏目前支持wasd移动，j攻击k跳跃以及多种技能连招"
+          },
+          {
+            "url": "http://mmorpg.onestyle.top/",
+            "logo": "assets/images/logos/yineng.png",
+            "title": "多人socket游戏",
+            "desc": "想做一款MMORPG，目前只用来练习多人登录与移动，有bug，慎入"
+          }
+        ]
+      },
+      {
+        "name": "个人博客",
+        "en_name": "UX",
+        "web": [
+          {
+            "url": "http://wang-tengyao.gitee.io/",
+            "logo": "assets/images/logos/gitee.png",
+            "title": "个人gitee博客",
+            "desc": "博主技术博客，写的超烂，劝你别看（看不了就是没过审）"
+          },
+          {
+            "url": "https://snake34475.github.io/",
+            "logo": "assets/images/logos/github.png",
+            "title": "个人github博客",
+            "desc": "gitee的镜像（前面三个访问不了这个必定能访问）"
           }
         ]
       }
