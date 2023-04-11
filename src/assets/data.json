@@ -49,9 +49,22 @@
             "logo": "//s2.loli.net/2023/04/08/GyiOkI2RPQ71Jsg.png",
             "title": "youtub下载工具",
             "desc": "全世界最牛的在线智能笔记系统，缺点是没有本地和中文"
+          },
+          {
+            "url": "https://rightbrain.art/imageToImage",
+            "logo": "assets/images/logos/chatgpt.png",
+            "title": "ai 绘画工具",
+            "desc": "线上的sd 绘画网站，需要排队和手机号"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "name": "其他站点",
+    "en_name": "Tutorial",
+    "icon": "linecons-pencil",
+    "children": [
       {
         "name": "合集类",
         "en_name": "Design Guidelines",
@@ -107,18 +120,6 @@
         ]
       },
       {
-        "name": "游戏类",
-        "en_name": "Design FM",
-        "web": [
-          {
-            "url": "https://www.wrmdjyx.cn/",
-            "logo": "assets/images/logos/laogun.png",
-            "title": "老滚万人迷",
-            "desc": "老滚万人迷，海量游戏下载网站,他控制台好像开发就自动关闭了，可恨！！"
-          }
-        ]
-      },
-      {
         "name": "其他站长的导航",
         "en_name": "Design FM",
         "web": [
@@ -145,6 +146,49 @@
             "logo": "assets/images/logos/chuangke.jpg",
             "title": "创客工具",
             "desc": "聚合类"
+          },
+          {
+            "url": "https://www.aboutppt.com/",
+            "logo": "//s2.loli.net/2023/04/11/rkBnoM3JtDRwf8q.png",
+            "title": "演示设计网站导航",
+            "desc": "聚合类"
+          },
+          {
+            "url": "https://www.widiz.com/",
+            "logo": "//s2.loli.net/2023/04/11/qspR4niFYDBMUrE.png",
+            "title": "吾爱导航",
+            "desc": "大综合网站"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "娱乐",
+    "en_name": "Tutorial",
+    "icon": "linecons-pencil",
+    "children": [
+      {
+        "name": "游戏类",
+        "en_name": "Design FM",
+        "web": [
+          {
+            "url": "https://www.wrmdjyx.cn/",
+            "logo": "assets/images/logos/laogun.png",
+            "title": "老滚万人迷",
+            "desc": "老滚万人迷，海量游戏下载网站,他控制台好像开发就自动关闭了，可恨！！"
+          }
+        ]
+      },
+      {
+        "name": "视频",
+        "en_name": "Design FM",
+        "web": [
+          {
+            "url": "https://www.yijia5.com/",
+            "logo": "//s2.loli.net/2023/04/11/YEIKBh1k42sMVDj.png",
+            "title": "全集网",
+            "desc": "免费视频网站"
           }
         ]
       }
