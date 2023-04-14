@@ -9,30 +9,6 @@
         "en_name": "Design FM",
         "web": [
           {
-            "url": "https://chatbot.theb.ai/",
-            "logo": "assets/images/logos/bai.jpg",
-            "title": "BAI CHAT",
-            "desc": "国内免费的chatgpt3.5"
-          },
-          {
-            "url": "https://xc.com/",
-            "logo": "//s2.loli.net/2023/04/08/Rk6d7TWCpLPBJbw.png",
-            "title": "xc",
-            "desc": "备用chatgpt 但是使用的是gpt-3"
-          },
-          {
-            "url": "https://aitxt.io/#/",
-            "logo": "//s2.loli.net/2023/04/08/BeLWzT9OocEl1dI.png",
-            "title": "aitxt",
-            "desc": "基于 Ai 来生成您想要的文案"
-          },
-          {
-            "url": "https://huggingface.co/models",
-            "logo": "//s2.loli.net/2023/04/14/l5ibhKGBfrjoED2.png",
-            "title": "huggingface",
-            "desc": "ai模型托管网站"
-          },
-          {
             "url": "https://blog.csdn.net/dejing6575/article/details/101473932",
             "logo": "assets/images/logos/csdn.jpg",
             "title": "前端颜色表",
@@ -57,16 +33,89 @@
             "desc": "全世界最牛的在线智能笔记系统，缺点是没有本地和中文"
           },
           {
+            "url": "https://natapp.cn/",
+            "logo": "assets/images/logos/chatgpt.png",
+            "title": "内网穿透工具",
+            "desc": "支持将本地ip穿透"
+          }
+        ]
+      },
+      {
+        "name": "阅读",
+        "en_name": "Design FM",
+        "web": [
+          {
+            "url": "https://search.yibook.org/",
+            "logo": "assets/images/logos/github.png",
+            "title": "易书 书籍",
+            "desc": "涵盖几乎所有的书库，免费下载"
+          },
+          {
+            "url": "https://kox.moe/",
+            "logo": "assets/images/logos/mox.jpg",
+            "title": "kox.moe",
+            "desc": "kindle下漫画唯一又全又免费的网站"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ai类",
+    "en_name": "Tutorial",
+    "icon": "linecons-pencil",
+    "children": [
+      {
+        "name": "ai合集网",
+        "en_name": "Design FM",
+        "web": [
+          {
+            "url": "https://chatbot.theb.ai/",
+            "logo": "assets/images/logos/bai.jpg",
+            "title": "BAI CHAT",
+            "desc": "国内免费的chatgpt3.5"
+          },
+          {
+            "url": "https://xc.com/",
+            "logo": "//s2.loli.net/2023/04/08/Rk6d7TWCpLPBJbw.png",
+            "title": "xc",
+            "desc": "备用chatgpt 但是使用的是gpt-3"
+          },
+          {
+            "url": "https://aitxt.io/#/",
+            "logo": "//s2.loli.net/2023/04/08/BeLWzT9OocEl1dI.png",
+            "title": "aitxt",
+            "desc": "基于 Ai 来生成您想要的文案"
+          },
+          {
+            "url": "https://huggingface.co/models",
+            "logo": "//s2.loli.net/2023/04/14/l5ibhKGBfrjoED2.png",
+            "title": "huggingface",
+            "desc": "ai模型托管网站"
+          },
+          {
             "url": "https://rightbrain.art/imageToImage",
             "logo": "assets/images/logos/chatgpt.png",
             "title": "ai 绘画工具",
             "desc": "线上的sd 绘画网站，需要排队和手机号"
           },
           {
-            "url": "https://natapp.cn/",
+            "url": "https://novelai.dev/",
+            "logo": "assets/images/logos/medialoot.png",
+            "title": "一个以技术宅为核心的 AI 绘画爱好者群体",
+            "desc": "一个以技术宅为核心的 AI 绘画爱好者群体"
+          },
+          {
+            "url": "https://github.com/xx025/carrot",
+            "logo": "assets/images/logos/github.png",
+            "title": "ChatGPT 资源汇总",
+            "desc": "github上收集的全网可用chatgpt"
+          },
+          {
+            "url": "https://ainav.sciencat.net/chatgpt",
             "logo": "assets/images/logos/chatgpt.png",
-            "title": "内网穿透工具",
-            "desc": "支持将本地ip穿透"
+            "title": "ChatGPT 资源汇总",
+            "desc": "全网所有可用的chatgpt"
           }
         ]
       }
@@ -81,12 +130,7 @@
         "name": "合集类",
         "en_name": "Design Guidelines",
         "web": [
-          {
-            "url": "https://ainav.sciencat.net/chatgpt",
-            "logo": "assets/images/logos/chatgpt.png",
-            "title": "ChatGPT 资源汇总",
-            "desc": "全网所有可用的chatgpt"
-          },
+
           {
             "url": "https://233heji.com/",
             "logo": "assets/images/logos/heji.png",
@@ -100,28 +144,10 @@
             "desc": "开发者合集网，让你一览所有国外热门的程序员网站的热搜，网站里面还有其他专业的合集供选择"
           },
           {
-            "url": "https://search.yibook.org/",
-            "logo": "assets/images/logos/github.png",
-            "title": "易书 书籍",
-            "desc": "涵盖几乎所有的书库，免费下载"
-          },
-          {
-            "url": "https://kox.moe/",
-            "logo": "assets/images/logos/mox.jpg",
-            "title": "kox.moe",
-            "desc": "kindle下漫画唯一又全又免费的网站"
-          },
-          {
             "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
             "logo": "assets/images/logos/github.png",
             "title": "服务器自托管合集",
             "desc": "服务器自托管合集"
-          },
-          {
-            "url": "https://novelai.dev/",
-            "logo": "assets/images/logos/medialoot.png",
-            "title": "一个以技术宅为核心的 AI 绘画爱好者群体",
-            "desc": "一个以技术宅为核心的 AI 绘画爱好者群体"
           },
           {
             "url": "https://www.nazhumi.com/",
