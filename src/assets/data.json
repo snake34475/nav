@@ -27,6 +27,12 @@
             "desc": "基于 Ai 来生成您想要的文案"
           },
           {
+            "url": "https://huggingface.co/models",
+            "logo": "//s2.loli.net/2023/04/14/l5ibhKGBfrjoED2.png",
+            "title": "huggingface",
+            "desc": "ai模型托管网站"
+          },
+          {
             "url": "https://blog.csdn.net/dejing6575/article/details/101473932",
             "logo": "assets/images/logos/csdn.jpg",
             "title": "前端颜色表",
@@ -55,6 +61,12 @@
             "logo": "assets/images/logos/chatgpt.png",
             "title": "ai 绘画工具",
             "desc": "线上的sd 绘画网站，需要排队和手机号"
+          },
+          {
+            "url": "https://natapp.cn/",
+            "logo": "assets/images/logos/chatgpt.png",
+            "title": "内网穿透工具",
+            "desc": "支持将本地ip穿透"
           }
         ]
       }
@@ -203,6 +215,12 @@
         "name": "工具类",
         "en_name": "Design Guidelines",
         "web": [
+          {
+            "url": "http://adqei3.natappfree.cc/",
+            "logo": "assets/images/logos/chatgpt.png",
+            "title": "ai绘画工具",
+            "desc": "本地部署的sd绘画工具"
+          },
           {
             "url": "https://chatgpt.onestyle.top/",
             "logo": "assets/images/logos/chatgpt.png",
