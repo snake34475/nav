@@ -27,6 +27,13 @@
             "desc": "备用chatgpt 但是使用的是gpt-3"
           },
           {
+            "url": " https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx",
+            "logo": "//s2.loli.net/2023/04/14/GCWgHdVX7vIu3OL.png",
+            "title": "new bing chat",
+            "desc": "直接进入new bing chat，前提是你需要使用edge浏览器或者安装new bing everywhere插件"
+          },
+
+          {
             "url": "https://aitxt.io/#/",
             "logo": "//s2.loli.net/2023/04/08/BeLWzT9OocEl1dI.png",
             "title": "aitxt",
@@ -171,6 +178,12 @@
             "logo": "assets/images/logos/medialoot.png",
             "title": "哪煮米",
             "desc": "一个可以查看所有低价域名的合集网站"
+          },
+          {
+            "url": "//www.zhujipingce.cc",
+            "logo": "assets/images/logos/medialoot.png",
+            "title": "主机评测",
+            "desc": "同标题"
           }
         ]
       },
