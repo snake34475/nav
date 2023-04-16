@@ -40,10 +40,16 @@
             "desc": "基于 Ai 来生成您想要的文案"
           },
           {
-            "url": "https://rightbrain.art/imageToImage",
+            "url": "https://rightbrain.art",
             "logo": "assets/images/logos/chatgpt.png",
             "title": "ai 绘画工具",
             "desc": "线上的sd 绘画网站，需要排队和手机号"
+          },
+          {
+            "url": "//www.kamiya.dev",
+            "logo": "assets/images/logos/chatgpt.png",
+            "title": "ai 绘画 在线图像生成",
+            "desc": "每天签到大概可以生成90张图"
           }
         ]
       },
