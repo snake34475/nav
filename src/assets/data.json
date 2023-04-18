@@ -21,6 +21,12 @@
             "desc": "GPT-3.5接口的AI机器人，他似乎能搜索实时信息，和new bing差不多"
           },
           {
+            "url": "https://poe.com/",
+            "logo": "assets/images/logos/bai.jpg",
+            "title": "poe",
+            "desc": "Quora开发的基于chatgpt3.5的chat机器人，每天支持调用一次gpt-4"
+          },
+          {
             "url": "https://xc.com/",
             "logo": "//s2.loli.net/2023/04/08/Rk6d7TWCpLPBJbw.png",
             "title": "xc",
@@ -32,7 +38,6 @@
             "title": "new bing chat",
             "desc": "直接进入new bing chat，前提是你需要使用edge浏览器或者安装new bing everywhere插件"
           },
-
           {
             "url": "https://aitxt.io/#/",
             "logo": "//s2.loli.net/2023/04/08/BeLWzT9OocEl1dI.png",
@@ -153,6 +158,18 @@
             "logo": "assets/images/logos/mox.jpg",
             "title": "kox.moe",
             "desc": "kindle下漫画唯一又全又免费的网站"
+          },
+          {
+            "url": "https://www.quora.com",
+            "logo": "https://s2.loli.net/2023/04/18/GcvVyYE2zxnMAtZ.png",
+            "title": "Quora",
+            "desc": "国外的知乎"
+          },
+          {
+            "url": " https://www.reddit.com/",
+            "logo": "https://s2.loli.net/2023/04/18/bBaGue68fXx1Qmh.png",
+            "title": "reddit",
+            "desc": "国外的贴吧？"
           }
         ]
       }
