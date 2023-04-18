@@ -86,6 +86,12 @@
             "logo": "assets/images/logos/chatgpt.png",
             "title": "ChatGPT 资源汇总",
             "desc": "全网所有可用的chatgpt"
+          },
+          {
+            "url": " https://github.com/ikaijua/Awesome-AITools/blob/main/README-CN.md",
+            "logo": "assets/images/logos/chatgpt.png",
+            "title": "ai工具汇总",
+            "desc": "这个仓库整理AI相关的实用工具"
           }
         ]
       }
