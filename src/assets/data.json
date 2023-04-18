@@ -75,6 +75,12 @@
             "desc": "分享和交流AI Prompt设计"
           },
           {
+            "url": "https://www.aishort.top/?tags=code",
+            "logo": "https://s2.loli.net/2023/04/18/GcvVyYE2zxnMAtZ.png",
+            "title": "ChatGPT Shortcut",
+            "desc": "让生产力加倍的 ChatGPT 快捷指令"
+          },
+          {
             "url": "https://novelai.dev/",
             "logo": "assets/images/logos/medialoot.png",
             "title": "一个以技术宅为核心的 AI 绘画爱好者群体",
@@ -85,6 +91,12 @@
             "logo": "assets/images/logos/github.png",
             "title": "ChatGPT 资源汇总",
             "desc": "github上收集的全网可用chatgpt"
+          },
+          {
+            "url": "https://cc.ai55.cc/",
+            "logo": "assets/images/logos/github.png",
+            "title": "免费好用的ChatGPT镜像汇总",
+            "desc": "国内应该不需要翻"
           },
           {
             "url": "https://ainav.sciencat.net/chatgpt",
@@ -140,6 +152,12 @@
             "logo": "assets/images/logos/chatgpt.png",
             "title": "内网穿透工具",
             "desc": "支持将本地ip穿透"
+          },
+          {
+            "url": "https://nav.newzone.top/",
+            "logo": "https://nav.newzone.top/wp-content/logo/navfavicon.svg",
+            "title": "开源工具导航",
+            "desc": "众多开源工具"
           }
         ]
       },
