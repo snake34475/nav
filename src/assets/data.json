@@ -66,19 +66,19 @@
             "url": "https://huggingface.co/models",
             "logo": "//s2.loli.net/2023/04/14/l5ibhKGBfrjoED2.png",
             "title": "huggingface",
-            "desc": "ai模型托管网站"
+            "desc": "它是一个面向自然语言处理 (NLP) 的开源框架，使用它可以方便地训练、部署和分享预训练模型，同时还提供了一些常用的 NLP 工具和应用程序"
           },
           {
             "url": "https://bbs.allaitools.cn/",
             "logo": "https://s2.loli.net/2023/04/14/CEiRZB4gUlaQG6H.png",
             "title": "中文Prompt工坊",
-            "desc": "分享和交流AI Prompt设计"
+            "desc": "是一个中文 AI 技术交流社区，旨在为 AI 爱好者提供一个讨论、分享和学习的平台。"
           },
           {
             "url": "https://www.aishort.top/?tags=code",
             "logo": "https://s2.loli.net/2023/04/18/GcvVyYE2zxnMAtZ.png",
             "title": "ChatGPT Shortcut",
-            "desc": "让生产力加倍的 ChatGPT 快捷指令"
+            "desc": " AI 内容聚合网站，该网站会自动从各个知名博客、论坛和社交媒体上获取与 AI 相关的优质内容，并将其汇集到一起供用户浏览"
           },
           {
             "url": "https://novelai.dev/",
@@ -133,7 +133,7 @@
             "url": "https://habitica.com/",
             "logo": "assets/images/logos/habitica.jpg",
             "title": "habitica",
-            "desc": "一款培养习惯的MMORPG游戏，列出你的todolist然后完成就升级，拥有组队工会等"
+            "desc": "是一个名为 Habitica 的在线任务管理和习惯养成应用程序，它以游戏化的方式帮助用户更好地管理和完成日常任务，并激励他们养成良好的习惯。"
           },
           {
             "url": "https://www.notion.so/",
@@ -154,10 +154,16 @@
             "desc": "支持将本地ip穿透"
           },
           {
-            "url": "https://nav.newzone.top/",
-            "logo": "https://nav.newzone.top/wp-content/logo/navfavicon.svg",
-            "title": "开源工具导航",
-            "desc": "众多开源工具"
+            "url": "https://www.zoomeye.org/",
+            "logo": "https://s2.loli.net/2023/04/19/hiKlQ4PqVb1tXM9.png",
+            "title": "zoomeye",
+            "desc": "ZoomEye是一个面向网络安全研究人员和专业人士的搜索引擎，可以使用关键词和过滤器搜索与互联网连接的设备信息"
+          },
+          {
+            "url": "http://alist.xiaoya.pro/",
+            "logo": "https://s2.loli.net/2023/04/19/hiKlQ4PqVb1tXM9.png",
+            "title": "小雅的alist",
+            "desc": "在线使用的网盘"
           }
         ]
       },
@@ -231,6 +237,12 @@
             "logo": "assets/images/logos/medialoot.png",
             "title": "主机评测",
             "desc": "同标题"
+          },
+          {
+            "url": "https://nav.newzone.top/",
+            "logo": "https://nav.newzone.top/wp-content/logo/navfavicon.svg",
+            "title": "开源工具导航",
+            "desc": "众多开源工具"
           }
         ]
       },
