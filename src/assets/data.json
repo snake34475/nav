@@ -139,7 +139,7 @@
             "url": "https://www.notion.so/",
             "logo": "assets/images/logos/notion.jpg",
             "title": "notion",
-            "desc": "全世界最牛的在线智能笔记系统，缺点是没有本地和中文"
+            "desc": "它是一款功能强大的多合一生产力工具，可以用于笔记、项目管理、任务列表等多种应用场景"
           },
           {
             "url": "https://zh.loader.to/1/",
@@ -151,7 +151,7 @@
             "url": "https://natapp.cn/",
             "logo": "assets/images/logos/chatgpt.png",
             "title": "内网穿透工具",
-            "desc": "支持将本地ip穿透"
+            "desc": "它是一个内网穿透工具，可以将本地计算机或局域网内的服务暴露到公网上，方便远程访问和调试"
           },
           {
             "url": "https://www.zoomeye.org/",
@@ -187,13 +187,13 @@
             "url": "https://www.quora.com",
             "logo": "https://s2.loli.net/2023/04/18/GcvVyYE2zxnMAtZ.png",
             "title": "Quora",
-            "desc": "国外的知乎"
+            "desc": "国外的知乎,它是一个知识问答社区，用户可以在这里提出问题并获得其他用户的回答和意见。Quora上的问题涵盖了许多领域，包括科技、文化、商业、旅行等等。\n\n\n\n\n"
           },
           {
-            "url": " https://www.reddit.com/",
+            "url": "https://www.reddit.com/",
             "logo": "https://s2.loli.net/2023/04/18/bBaGue68fXx1Qmh.png",
             "title": "reddit",
-            "desc": "国外的贴吧？"
+            "desc": "国外的贴吧？ 它是一个社交新闻聚合、讨论和内容评价平台"
           }
         ]
       }
