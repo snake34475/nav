@@ -27,6 +27,12 @@
             "desc": "Quora开发的基于chatgpt3.5的chat机器人，每天支持调用一次gpt-4"
           },
           {
+            "url": "https://chat.chatbot.sex",
+            "logo": "https://s2.loli.net/2023/04/21/VXtU641Y7hsZxpj.png",
+            "title": "chatgpt",
+            "desc": "拥有gpt-3_turbo和假gpt4"
+          },
+          {
             "url": "https://xc.com/",
             "logo": "//s2.loli.net/2023/04/08/Rk6d7TWCpLPBJbw.png",
             "title": "xc",
