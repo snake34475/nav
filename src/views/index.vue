@@ -6,13 +6,13 @@
           <!-- logo -->
           <div class="logo">
             <a href="javascript:void(0)" class="logo-expanded">
-              <img src="//s2.loli.net/2023/02/01/3zOucySxfkNnhI5.png" width="100%" alt="" />
+              <img src="//s2.loli.net/2023/02/01/3zOucySxfkNnhI5.png" width="100%" alt=""/>
             </a>
             <a href="javascript:void(0)" class="logo-collapsed">
               <img
-                src="//upload.onestyle.top/image/2022/07/12/wu_1g7odq5bbut1kh16a61qbd8mi6.png"
-                width="40"
-                alt=""
+                  src="//upload.onestyle.top/image/2022/07/12/wu_1g7odq5bbut1kh16a61qbd8mi6.png"
+                  width="40"
+                  alt=""
               />
             </a>
           </div>
@@ -37,9 +37,9 @@
                 <a :href="'#' + transName(submenu)" class="smooth">
                   <span class="title">{{ transName(submenu) }}</span>
                   <span
-                    v-show="submenu.is_hot"
-                    class="label label-pink pull-right hidden-collapsed"
-                    >Hot</span
+                      v-show="submenu.is_hot"
+                      class="label label-pink pull-right hidden-collapsed"
+                  >Hot</span
                   >
                 </a>
               </li>
@@ -51,7 +51,7 @@
               <i class="linecons-heart"></i>
               <span class="tooltip-blue">关于本站</span>
               <span class="label label-Primary pull-right hidden-collapsed"
-                >♥︎</span
+              >♥︎</span
               >
             </router-link>
           </li>
@@ -67,16 +67,16 @@
           </li>
           <li class="dropdown hover-line language-switcher">
             <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
-              <img :src="lang.flag" /> {{ lang.name }}
+              <img :src="lang.flag"/> {{ lang.name }}
             </a>
             <ul class="dropdown-menu languages">
               <li
-                :class="{ active: langItem.key === lang.key }"
-                v-for="langItem in langList"
-                :key="langItem.key"
+                  :class="{ active: langItem.key === lang.key }"
+                  v-for="langItem in langList"
+                  :key="langItem.key"
               >
                 <a href="javascript:void(0)" @click="lang = langItem">
-                  <img :src="langItem.flag" /> {{ langItem.name }}
+                  <img :src="langItem.flag"/> {{ langItem.name }}
                 </a>
               </li>
             </ul>
@@ -93,14 +93,14 @@
 
       <div v-for="(item, idx) in items" :key="idx">
         <div v-if="item.web">
-          <WebItem :item="item" :transName="transName" />
+          <WebItem :item="item" :transName="transName"/>
         </div>
         <div v-else v-for="(subItem, idx) in item.children" :key="idx">
-          <WebItem :item="subItem" :transName="transName" />
+          <WebItem :item="subItem" :transName="transName"/>
         </div>
       </div>
 
-      <Footer />
+      <Footer/>
     </div>
   </div>
 </template>
@@ -109,7 +109,8 @@
 import WebItem from "../components/WebItem.vue";
 import Footer from "../components/Footer.vue";
 import itemsData from "../assets/data.json";
-import { loadJs } from '../assets/js/app.js'
+import {loadJs} from '../assets/js/app.js'
+import {getPage} from "@/api";
 
 export default {
   name: "Index",
@@ -119,7 +120,7 @@ export default {
   },
   data() {
     return {
-      items: itemsData,
+      items: null,
       lang: {},
       langList: [
         {
@@ -138,6 +139,28 @@ export default {
   created() {
     this.lang = this.langList[0];
     loadJs();
+    getPage().then(res => {
+      console.log("res.data", res.data)
+      const data = res.data
+      let arr = data.map(first => ({
+        name: first.name || '测试',
+        "en_name": "Tutorial",
+        icon: first.icon || "linecons-pencil",
+        children: first.children.map(second => ({
+          name: second.name || '测试',
+          "en_name": "Tutorial",
+          web: second.web && second.web.map(third => ({
+            ...third,
+            description: third.description || '测试'
+          }))
+        }))
+      }))
+      this.items = [
+        ...itemsData,
+        ...arr
+      ]
+      console.log("itemsData", itemsData)
+    })
   },
   methods: {
     transName(webItem) {
