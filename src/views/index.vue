@@ -151,6 +151,7 @@ export default {
           "en_name": "Tutorial",
           web: second.web && second.web.map(third => ({
             ...third,
+            logo:"http://img.onestyle.top"+third.logo,
             description: third.description || '测试'
           }))
         }))
