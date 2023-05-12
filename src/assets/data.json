@@ -22,7 +22,7 @@
           },
           {
             "url": "https://poe.com/",
-            "logo": "assets/images/logos/bai.jpg",
+            "logo": "https://poe.com/favicon.ico",
             "title": "poe",
             "desc": "Quora开发的基于chatgpt3.5的chat机器人，每天支持调用一次gpt-4"
           },
@@ -52,13 +52,13 @@
           },
           {
             "url": "https://rightbrain.art",
-            "logo": "assets/images/logos/chatgpt.png",
+            "logo": "https://edit-static-1307270943.cos.ap-beijing.myqcloud.com/logo.ico",
             "title": "ai 绘画工具",
             "desc": "线上的sd 绘画网站，需要排队和手机号"
           },
           {
             "url": "//www.kamiya.dev",
-            "logo": "assets/images/logos/chatgpt.png",
+            "logo": "https://r2.kamiya-b.me/kamiya_main.ico",
             "title": "ai 绘画 在线图像生成",
             "desc": "每天签到大概可以生成90张图"
           }
@@ -82,7 +82,7 @@
           },
           {
             "url": "https://www.aishort.top/?tags=code",
-            "logo": "https://s2.loli.net/2023/04/18/GcvVyYE2zxnMAtZ.png",
+            "logo": "https://www.aishort.top/img/logo.svg",
             "title": "ChatGPT Shortcut",
             "desc": " AI 内容聚合网站，该网站会自动从各个知名博客、论坛和社交媒体上获取与 AI 相关的优质内容，并将其汇集到一起供用户浏览"
           },
@@ -141,12 +141,7 @@
             "title": "habitica",
             "desc": "是一个名为 Habitica 的在线任务管理和习惯养成应用程序，它以游戏化的方式帮助用户更好地管理和完成日常任务，并激励他们养成良好的习惯。"
           },
-          {
-            "url": "https://www.notion.so/",
-            "logo": "assets/images/logos/notion.jpg",
-            "title": "notion",
-            "desc": "它是一款功能强大的多合一生产力工具，可以用于笔记、项目管理、任务列表等多种应用场景"
-          },
+
           {
             "url": "https://zh.loader.to/1/",
             "logo": "//s2.loli.net/2023/04/08/GyiOkI2RPQ71Jsg.png",
@@ -170,6 +165,24 @@
             "logo": "https://s2.loli.net/2023/04/19/hiKlQ4PqVb1tXM9.png",
             "title": "小雅的alist",
             "desc": "在线使用的网盘"
+          }
+        ]
+      },
+      {
+        "name": "笔记类",
+        "en_name": "Design FM",
+        "web": [
+          {
+            "url": "https://www.notion.so/",
+            "logo": "assets/images/logos/notion.jpg",
+            "title": "notion",
+            "desc": "它是一款功能强大的多合一生产力工具，可以用于笔记、项目管理、任务列表等多种应用场景"
+          },
+          {
+            "url": "https://logseq.com/",
+            "logo": "https://logseq.com/logo-with-border.5bf84f43.png",
+            "title": "logseq",
+            "desc": "它是一款使用Markdown格式的强大知识管理应用,具有知识图谱、插件、搜索、预览等功能,并支持实时协作"
           }
         ]
       },
@@ -337,28 +350,16 @@
         "en_name": "Design Guidelines",
         "web": [
           {
-            "url": "http://adqei3.natappfree.cc/",
-            "logo": "assets/images/logos/chatgpt.png",
-            "title": "ai绘画工具",
-            "desc": "本地部署的sd绘画工具"
+            "url": "http://tengyao.byethost15.com/word/",
+            "logo": "assets/images/logos/xinchangjing.png",
+            "title": "个人wordpress站点",
+            "desc": "个人wordpress站点"
           },
           {
-            "url": "https://chatgpt.onestyle.top/",
-            "logo": "assets/images/logos/chatgpt.png",
-            "title": "(已失效)chatgpt",
-            "desc": "人工智能聊天工具，填写的博主的key，请节约使用"
-          },
-          {
-            "url": "http://81.68.128.43:7922/",
-            "logo": "assets/images/logos/niceui.png",
-            "title": "(已失效)秘密分享链接",
-            "desc": "粘贴文本保存后生成链接，支持分享给别人"
-          },
-          {
-            "url": "http://81.68.128.43:7923/",
-            "logo": "assets/images/logos/mimi.png",
-            "title": "(已失效)链接收藏或随笔",
-            "desc": "博主一些链接或者随笔的记录"
+            "url": "http://tengyao.byethost15.com/wiki/",
+            "logo": "assets/images/logos/xinchangjing.png",
+            "title": "个人内容管理",
+            "desc": "个人内容管理站点"
           }
         ]
       },
@@ -390,6 +391,12 @@
         "name": "个人博客",
         "en_name": "UX",
         "web": [
+          {
+            "url": "https://logseq.onestyle.top/",
+            "logo": "assets/images/logos/gitee.png",
+            "title": "个人logseq日志",
+            "desc": "自用的logseq日志，记录一些日常的事情"
+          },
           {
             "url": "http://wang-tengyao.gitee.io/",
             "logo": "assets/images/logos/gitee.png",

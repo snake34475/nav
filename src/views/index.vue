@@ -110,7 +110,7 @@ import WebItem from "../components/WebItem.vue";
 import Footer from "../components/Footer.vue";
 import itemsData from "../assets/data.json";
 import {loadJs} from '../assets/js/app.js'
-import {getPage} from "@/api";
+// import {getPage} from "@/api";
 
 export default {
   name: "Index",
@@ -120,7 +120,7 @@ export default {
   },
   data() {
     return {
-      items: null,
+      items: itemsData,
       lang: {},
       langList: [
         {
@@ -139,29 +139,29 @@ export default {
   created() {
     this.lang = this.langList[0];
     loadJs();
-    getPage().then(res => {
-      console.log("res.data", res.data)
-      const data = res.data
-      let arr = data.map(first => ({
-        name: first.name || '测试',
-        "en_name": "Tutorial",
-        icon: first.icon || "linecons-pencil",
-        children: first.children.map(second => ({
-          name: second.name || '测试',
-          "en_name": "Tutorial",
-          web: second.web && second.web.map(third => ({
-            ...third,
-            logo:"http://img.onestyle.top"+third.logo,
-            description: third.description || '测试'
-          }))
-        }))
-      }))
-      this.items = [
-        ...itemsData,
-        ...arr
-      ]
-      console.log("itemsData", itemsData)
-    })
+    // getPage().then(res => {
+    //   console.log("res.data", res.data)
+    //   const data = res.data
+    //   let arr = data.map(first => ({
+    //     name: first.name || '测试',
+    //     "en_name": "Tutorial",
+    //     icon: first.icon || "linecons-pencil",
+    //     children: first.children.map(second => ({
+    //       name: second.name || '测试',
+    //       "en_name": "Tutorial",
+    //       web: second.web && second.web.map(third => ({
+    //         ...third,
+    //         logo:third.logo?"http://img.onestyle.top"+third.logo:'https://s2.loli.net/2023/04/21/VXtU641Y7hsZxpj.png',
+    //         description: third.description || '测试'
+    //       }))
+    //     }))
+    //   }))
+    //   this.items = [
+    //     ...itemsData,
+    //     ...arr
+    //   ]
+    //   console.log("itemsData", itemsData)
+    // })
   },
   methods: {
     transName(webItem) {
