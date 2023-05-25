@@ -161,10 +161,10 @@
             "desc": "ZoomEye是一个面向网络安全研究人员和专业人士的搜索引擎，可以使用关键词和过滤器搜索与互联网连接的设备信息"
           },
           {
-            "url": "http://alist.xiaoya.pro/",
-            "logo": "https://s2.loli.net/2023/04/19/hiKlQ4PqVb1tXM9.png",
-            "title": "小雅的alist",
-            "desc": "在线使用的网盘"
+            "url": "https://www.magicalsearch.top/main",
+            "logo": "https://s2.loli.net/2023/05/25/dAqJtozED9usFmy.png",
+            "title": "奇妙搜索",
+            "desc": "能够搜索网盘，磁力链，软件，影视，音乐等各种应用，还能够在线播放磁力链"
           }
         ]
       },
@@ -304,6 +304,12 @@
             "logo": "//s2.loli.net/2023/04/11/qspR4niFYDBMUrE.png",
             "title": "吾爱导航",
             "desc": "大综合网站"
+          },
+          {
+            "url": "https://www.toolbon.com/",
+            "logo": "//s2.loli.net/2023/05/23/IWJR8yzLZ5U1rme.png",
+            "title": "优工具",
+            "desc": "具有开发接口，摸鱼神器，在线运行ps等"
           }
         ]
       }
