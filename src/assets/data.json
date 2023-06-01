@@ -165,6 +165,18 @@
             "logo": "https://s2.loli.net/2023/05/25/dAqJtozED9usFmy.png",
             "title": "奇妙搜索",
             "desc": "能够搜索网盘，磁力链，软件，影视，音乐等各种应用，还能够在线播放磁力链"
+          },
+          {
+            "url": "https://search.google.com/search-console/about",
+            "logo": "https://s2.loli.net/2023/06/01/lNo1UiTuS3jCtd5.png",
+            "title": "google站长工具",
+            "desc": "google站长工具"
+          },
+          {
+            "url": "https://tool.chinaz.com/",
+            "logo": "https://s2.loli.net/2023/06/01/8LPx4mzrAK2EBH7.png",
+            "title": "站长工具",
+            "desc": "很多管理网站的工具"
           }
         ]
       },
