@@ -1,6 +1,6 @@
 [
   {
-    "name": "ai类",
+    "name": "ai",
     "en_name": "Tutorial",
     "icon": "linecons-pencil",
     "children": [
@@ -8,6 +8,12 @@
         "name": "ai网站",
         "en_name": "Design FM",
         "web": [
+          {
+            "url": "https://www.toolai.io/",
+            "logo": "assets/images/logos/bai.jpg",
+            "title": "toolai",
+            "desc": "收录全国5000左右的ai网站"
+          },
           {
             "url": "https://chatbot.theb.ai/",
             "logo": "assets/images/logos/bai.jpg",
@@ -25,12 +31,6 @@
             "logo": "https://poe.com/favicon.ico",
             "title": "poe",
             "desc": "Quora开发的基于chatgpt3.5的chat机器人，每天支持调用一次gpt-4"
-          },
-          {
-            "url": "https://chat.chatbot.sex",
-            "logo": "https://s2.loli.net/2023/04/21/VXtU641Y7hsZxpj.png",
-            "title": "chatgpt",
-            "desc": "拥有gpt-3_turbo和假gpt4"
           },
           {
             "url": "https://xc.com/",
@@ -251,12 +251,17 @@
             "desc": "记录各种方面，例如ai，网址，网盘，游戏等合集"
           },
           {
+            "url": "http://ziyuanhuishequ.ysepan.com/",
+            "logo": "https://nav.newzone.top/wp-content/logo/navfavicon.svg",
+            "title": "资源汇社区资源库",
+            "desc": "收藏众多网站合集"
+          },
+          {
             "url": "https://devurls.com/",
             "logo": "assets/images/logos/dev.png",
             "title": "devurls",
             "desc": "开发者合集网，让你一览所有国外热门的程序员网站的热搜，网站里面还有其他专业的合集供选择"
           },
-
           {
             "url": "https://nav.newzone.top/",
             "logo": "https://nav.newzone.top/wp-content/logo/navfavicon.svg",
