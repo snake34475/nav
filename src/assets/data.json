@@ -9,6 +9,18 @@
         "en_name": "Design FM",
         "web": [
           {
+            "url": "https://xinghuo.xfyun.cn/",
+            "logo": "fav",
+            "title": "讯飞星火认知大模型",
+            "desc": "科大讯飞的ai对话"
+          },
+          {
+            "url": "https://yiyan.baidu.com/",
+            "logo": "fav",
+            "title": "文心一言",
+            "desc": "百度的ai对话"
+          },
+          {
             "url": "https://www.toolai.io/",
             "logo": "assets/images/logos/bai.jpg",
             "title": "toolai",

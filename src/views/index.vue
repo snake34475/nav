@@ -96,10 +96,10 @@
           <WebItem :item="item" :transName="transName"/>
         </div>
         <div v-else v-for="(subItem, idx) in item.children" :key="idx">
+          <!-- 网站本体 -->
           <WebItem :item="subItem" :transName="transName"/>
         </div>
       </div>
-
       <Footer/>
     </div>
   </div>
@@ -135,6 +135,13 @@ export default {
         },
       ],
     };
+  },
+  computed:{
+    // ImgeUrl(item){
+    //   if(item.flag==='fav'){
+    //     return item.src
+    //   }
+    // }
   },
   created() {
     this.lang = this.langList[0];

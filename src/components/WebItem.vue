@@ -13,7 +13,7 @@
 
           <div class="xe-comment-entry">
             <a class="xe-user-img">
-              <img :src="web.logo" class="lozad img-circle animation-element" width="40">
+              <!-- <img :src="logoUrl(web)" class="lozad img-circle animation-element" width="40"> -->
             </a>
             <div class="xe-comment">
               <a href="#" class="xe-user-name overflowClip_1">
@@ -38,6 +38,15 @@ export default {
   props: {
     item: Object,
     transName: Function
+  },
+  computed:{
+    logoUrl:(item)=>{
+      // if(item.logo==='fav'){
+      //   return item.url+"/favicon.ico"
+      // }
+      return item.logo
+      
+    }
   },
   methods: {
     openweb(url,wid) {
