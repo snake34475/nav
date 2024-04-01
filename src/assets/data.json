@@ -445,22 +445,16 @@
         "en_name": "Design FM",
         "web": [
           {
-            "url": "http://resetseer.onestyle.top/",
-            "logo": "assets/images/logos/xinchangjing.png",
-            "title": "新昌景",
-            "desc": "吸取了重新功夫派的教训，传统耐玩的像素2d风，结合永劫无间的连招方式"
-          },
-          {
-            "url": "http://gongfu.onestyle.top/",
+            "url": "http://gongfu.onestyle.fun/",
             "logo": "assets/images/logos/resetgongfu.png",
             "title": "重启功夫派",
             "desc": "基于淘米网功夫派游戏的复刻，游戏目前支持wasd移动，j攻击k跳跃以及多种技能连招"
           },
           {
-            "url": "http://mmorpg.onestyle.top/",
-            "logo": "assets/images/logos/yineng.png",
-            "title": "多人socket游戏",
-            "desc": "想做一款MMORPG，目前只用来练习多人登录与移动，有bug，慎入"
+            "url": "https://pan.baidu.com/s/1Ql0ea6atdAvVgp1ETNiQRQ?pwd=h8rw",
+            "logo": "assets/images/logos/resetgongfu.png",
+            "title": "重启功夫派游戏安装包（百度网盘）",
+            "desc": "基于淘米网功夫派游戏的复刻，游戏目前支持wasd移动，j攻击k跳跃以及多种技能连招"
           }
         ]
       },
