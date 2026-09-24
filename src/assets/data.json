@@ -74,6 +74,12 @@
             "logo": "assets/images/logos/curated/阅读.ico",
             "title": "阅读记录",
             "desc": "个人阅读记录与书单管理页面"
+          },
+          {
+            "url": "https://snake34475.github.io/AI-Playbook/",
+            "logo": "fallback-logo.svg",
+            "title": "AI Playbook",
+            "desc": "沉淀 AI 提示词、技能与工作流的知识库"
           }
         ]
       }
