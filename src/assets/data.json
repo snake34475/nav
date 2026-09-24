@@ -5,128 +5,75 @@
     "icon": "linecons-pencil",
     "children": [
       {
-        "name": "ai网站",
-        "en_name": "Design FM",
-        "web": [
-          {
-            "url": "https://xinghuo.xfyun.cn/",
-            "logo": "fav",
-            "title": "讯飞星火认知大模型",
-            "desc": "科大讯飞的ai对话"
-          },
-          {
-            "url": "https://yiyan.baidu.com/",
-            "logo": "fav",
-            "title": "文心一言",
-            "desc": "百度的ai对话"
-          },
-          {
-            "url": "https://www.toolai.io/",
-            "logo": "assets/images/logos/bai.jpg",
-            "title": "toolai",
-            "desc": "收录全国5000左右的ai网站"
-          },
-          {
-            "url": "https://chatbot.theb.ai/",
-            "logo": "assets/images/logos/bai.jpg",
-            "title": "BAI CHAT",
-            "desc": "国内免费的chatgpt3.5"
-          },
-          {
-            "url": "https://kii5h.aichatos.com/",
-            "logo": "assets/images/logos/bai.jpg",
-            "title": "BAI CHAT",
-            "desc": "GPT-3.5接口的AI机器人，他似乎能搜索实时信息，和new bing差不多"
-          },
-          {
-            "url": "https://poe.com/",
-            "logo": "https://poe.com/favicon.ico",
-            "title": "poe",
-            "desc": "Quora开发的基于chatgpt3.5的chat机器人，每天支持调用一次gpt-4"
-          },
-          {
-            "url": "https://xc.com/",
-            "logo": "//s2.loli.net/2023/04/08/Rk6d7TWCpLPBJbw.png",
-            "title": "xc",
-            "desc": "备用chatgpt 但是使用的是gpt-3"
-          },
-          {
-            "url": " https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx",
-            "logo": "//s2.loli.net/2023/04/14/GCWgHdVX7vIu3OL.png",
-            "title": "new bing chat",
-            "desc": "直接进入new bing chat，前提是你需要使用edge浏览器或者安装new bing everywhere插件"
-          },
-          {
-            "url": "https://aitxt.io/#/",
-            "logo": "//s2.loli.net/2023/04/08/BeLWzT9OocEl1dI.png",
-            "title": "aitxt",
-            "desc": "基于 Ai 来生成您想要的文案"
-          },
-          {
-            "url": "https://rightbrain.art",
-            "logo": "https://edit-static-1307270943.cos.ap-beijing.myqcloud.com/logo.ico",
-            "title": "ai 绘画工具",
-            "desc": "线上的sd 绘画网站，需要排队和手机号"
-          },
-          {
-            "url": "//www.kamiya.dev",
-            "logo": "https://r2.kamiya-b.me/kamiya_main.ico",
-            "title": "ai 绘画 在线图像生成",
-            "desc": "每天签到大概可以生成90张图"
-          }
-        ]
-      },
-      {
         "name": "ai技术交流网站",
         "en_name": "Design FM",
         "web": [
           {
             "url": "https://huggingface.co/models",
-            "logo": "//s2.loli.net/2023/04/14/l5ibhKGBfrjoED2.png",
-            "title": "huggingface",
-            "desc": "它是一个面向自然语言处理 (NLP) 的开源框架，使用它可以方便地训练、部署和分享预训练模型，同时还提供了一些常用的 NLP 工具和应用程序"
+            "logo": "assets/images/logos/remote/remote-07.png",
+            "title": "Hugging Face",
+            "desc": "开源 AI 模型、数据集与应用协作平台"
           },
           {
             "url": "https://bbs.allaitools.cn/",
-            "logo": "https://s2.loli.net/2023/04/14/CEiRZB4gUlaQG6H.png",
-            "title": "中文Prompt工坊",
-            "desc": "是一个中文 AI 技术交流社区，旨在为 AI 爱好者提供一个讨论、分享和学习的平台。"
+            "logo": "assets/images/logos/remote/remote-08.png",
+            "title": "中文 Prompt 工坊",
+            "desc": "面向 AI 爱好者的中文提示词交流社区"
           },
           {
             "url": "https://www.aishort.top/?tags=code",
-            "logo": "https://www.aishort.top/img/logo.svg",
-            "title": "ChatGPT Shortcut",
-            "desc": " AI 内容聚合网站，该网站会自动从各个知名博客、论坛和社交媒体上获取与 AI 相关的优质内容，并将其汇集到一起供用户浏览"
-          },
-          {
-            "url": "https://novelai.dev/",
-            "logo": "assets/images/logos/medialoot.png",
-            "title": "一个以技术宅为核心的 AI 绘画爱好者群体",
-            "desc": "一个以技术宅为核心的 AI 绘画爱好者群体"
-          },
-          {
-            "url": "https://github.com/xx025/carrot",
-            "logo": "assets/images/logos/github.png",
-            "title": "ChatGPT 资源汇总",
-            "desc": "github上收集的全网可用chatgpt"
+            "logo": "fallback-logo.svg",
+            "title": "AI Short",
+            "desc": "提供 ChatGPT 与 DeepSeek 提示词模板"
           },
           {
             "url": "https://cc.ai55.cc/",
             "logo": "assets/images/logos/github.png",
-            "title": "免费好用的ChatGPT镜像汇总",
-            "desc": "国内应该不需要翻"
-          },
-          {
-            "url": "https://ainav.sciencat.net/chatgpt",
-            "logo": "assets/images/logos/chatgpt.png",
-            "title": "ChatGPT 资源汇总",
-            "desc": "全网所有可用的chatgpt"
+            "title": "ChatGPT 镜像汇总",
+            "desc": "收录可访问的 ChatGPT 镜像服务入口"
           },
           {
             "url": " https://github.com/ikaijua/Awesome-AITools/blob/main/README-CN.md",
             "logo": "assets/images/logos/chatgpt.png",
-            "title": "ai工具汇总",
-            "desc": "这个仓库整理AI相关的实用工具"
+            "title": "Awesome AI Tools",
+            "desc": "GitHub 上整理的 AI 实用工具清单"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "博主网站",
+    "en_name": "Tutorial",
+    "icon": "linecons-pencil",
+    "children": [
+      {
+        "name": "工具类",
+        "en_name": "Design Guidelines",
+        "web": [
+          {
+            "url": "http://139.9.66.34:8746/",
+            "logo": "fallback-logo.svg",
+            "title": "AI Usage 统计",
+            "desc": "汇总并查看各类 AI 服务的用量数据"
+          },
+          {
+            "url": "https://snake34475.github.io/ruankao/",
+            "logo": "fallback-logo.svg",
+            "title": "软件设计师自学资料库",
+            "desc": "整理软考软件设计师学习资料与复习路径"
+          },
+          {
+            "url": "https://snake34475.github.io/qr/",
+            "logo": "assets/images/logos/curated/二维码工具.svg",
+            "title": "Styled QR Generator",
+            "desc": "在线生成可自定义样式的二维码"
+          },
+          {
+            "url": "http://139.9.66.34:4396/#/",
+            "logo": "assets/images/logos/curated/阅读.ico",
+            "title": "阅读记录",
+            "desc": "个人阅读记录与书单管理页面"
           }
         ]
       }
@@ -138,195 +85,50 @@
     "icon": "linecons-pencil",
     "children": [
       {
-        "name": "搜索工具",
-        "en_name": "Design FM",
-        "web": [
-          {
-            "url": "https://www.zoomeye.org/",
-            "logo": "https://s2.loli.net/2023/04/19/hiKlQ4PqVb1tXM9.png",
-            "title": "zoomeye",
-            "desc": "ZoomEye是一个面向网络安全研究人员和专业人士的搜索引擎，可以使用关键词和过滤器搜索与互联网连接的设备信息"
-          },
-          {
-            "url": "https://www.fastsoso.cc/",
-            "logo": "https://s2.loli.net/2023/06/08/rq3ty6o7NgbVhDd.png",
-            "title": "fastsoso",
-            "desc": "网盘搜索工具"
-          },
-          {
-            "url": "https://www.magicalsearch.top/main",
-            "logo": "https://s2.loli.net/2023/05/25/dAqJtozED9usFmy.png",
-            "title": "奇妙搜索",
-            "desc": "能够搜索网盘，磁力链，软件，影视，音乐等各种应用，还能够在线播放磁力链"
-          }
-        ]
-      },
-      {
         "name": "阅读",
         "en_name": "Design FM",
         "web": [
           {
+            "url": "https://rebang.today/?tab=weread",
+            "logo": "assets/images/logos/curated/热榜.ico",
+            "title": "今日热榜",
+            "desc": "聚合知乎、微博等平台实时热搜榜单"
+          },
+          {
+            "url": "https://zh.sov101.ru/",
+            "logo": "fallback-logo.svg",
+            "title": "Z-Library 镜像",
+            "desc": "提供电子书搜索与下载入口"
+          },
+          {
             "url": "https://search.yibook.org/",
-            "logo": "assets/images/logos/github.png",
-            "title": "易书 书籍",
-            "desc": "涵盖几乎所有的书库，免费下载"
+            "logo": "fallback-logo.svg",
+            "title": "易书搜索",
+            "desc": "聚合图书资源的在线检索工具"
+          },
+          {
+            "url": "https://www.zhihu.com/knowledge-plan/hot-question/hot/0/day",
+            "logo": "assets/images/logos/curated/知乎热搜.png",
+            "title": "知乎热榜",
+            "desc": "汇集知乎社区当日热门问题与讨论"
           },
           {
             "url": "https://kox.moe/",
-            "logo": "assets/images/logos/mox.jpg",
-            "title": "kox.moe",
-            "desc": "kindle下漫画唯一又全又免费的网站"
+            "logo": "assets/images/logos/curated/kox-moe.ico",
+            "title": "Kmoe 漫画",
+            "desc": "提供 Kindle 与 EPUB 格式漫画资源"
           },
           {
             "url": "https://www.quora.com",
-            "logo": "https://s2.loli.net/2023/04/18/GcvVyYE2zxnMAtZ.png",
+            "logo": "assets/images/logos/remote/remote-13.png",
             "title": "Quora",
-            "desc": "国外的知乎,它是一个知识问答社区，用户可以在这里提出问题并获得其他用户的回答和意见。Quora上的问题涵盖了许多领域，包括科技、文化、商业、旅行等等。\n\n\n\n\n"
+            "desc": "面向全球用户的知识问答社区"
           },
           {
             "url": "https://www.reddit.com/",
-            "logo": "https://s2.loli.net/2023/04/18/bBaGue68fXx1Qmh.png",
-            "title": "reddit",
-            "desc": "国外的贴吧？ 它是一个社交新闻聚合、讨论和内容评价平台"
-          },
-          {
-            "url": "https://bookfere.com/",
-            "logo": "https://s2.loli.net/2023/06/08/q9X4dvPQnUFYxgo.png",
-            "title": "书伴",
-            "desc": "书伴，kindle折腾合集"
-          },
-          {
-            "url": "http://wheremylife.cn/",
-            "logo": "https://s2.loli.net/2023/06/08/UTAi413MFzoZGB2.png",
-            "title": "WhereMyLife",
-            "desc": "为 Kindle 订阅 RSS，定时把文章推送给你"
-          }
-        ]
-      },
-      {
-        "name": "日常辅助工具",
-        "en_name": "Design FM",
-        "web": [
-          {
-            "url": "https://habitica.com/",
-            "logo": "assets/images/logos/habitica.jpg",
-            "title": "habitica",
-            "desc": "是一个名为 Habitica 的在线任务管理和习惯养成应用程序，它以游戏化的方式帮助用户更好地管理和完成日常任务，并激励他们养成良好的习惯。"
-          },
-          {
-            "url": "https://zh.loader.to/1/",
-            "logo": "//s2.loli.net/2023/04/08/GyiOkI2RPQ71Jsg.png",
-            "title": "youtub下载工具",
-            "desc": "全世界最牛的在线智能笔记系统，缺点是没有本地和中文"
-          },
-          {
-            "url": "https://natapp.cn/",
-            "logo": "assets/images/logos/chatgpt.png",
-            "title": "内网穿透工具",
-            "desc": "它是一个内网穿透工具，可以将本地计算机或局域网内的服务暴露到公网上，方便远程访问和调试"
-          }
-        ]
-      },
-      {
-        "name": "笔记类",
-        "en_name": "Design FM",
-        "web": [
-          {
-            "url": "https://www.notion.so/",
-            "logo": "assets/images/logos/notion.jpg",
-            "title": "notion",
-            "desc": "它是一款功能强大的多合一生产力工具，可以用于笔记、项目管理、任务列表等多种应用场景"
-          },
-          {
-            "url": "https://logseq.com/",
-            "logo": "https://logseq.com/logo-with-border.5bf84f43.png",
-            "title": "logseq",
-            "desc": "它是一款使用Markdown格式的强大知识管理应用,具有知识图谱、插件、搜索、预览等功能,并支持实时协作"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "其他站点",
-    "en_name": "Tutorial",
-    "icon": "linecons-pencil",
-    "children": [
-      {
-        "name": "合集类",
-        "en_name": "Design Guidelines",
-        "web": [
-          {
-            "url": "https://233heji.com/",
-            "logo": "assets/images/logos/heji.png",
-            "title": "合集网|信息资源大全",
-            "desc": "记录各种方面，例如ai，网址，网盘，游戏等合集"
-          },
-          {
-            "url": "http://ziyuanhuishequ.ysepan.com/",
-            "logo": "https://nav.newzone.top/wp-content/logo/navfavicon.svg",
-            "title": "资源汇社区资源库",
-            "desc": "收藏众多网站合集"
-          },
-          {
-            "url": "https://devurls.com/",
-            "logo": "assets/images/logos/dev.png",
-            "title": "devurls",
-            "desc": "开发者合集网，让你一览所有国外热门的程序员网站的热搜，网站里面还有其他专业的合集供选择"
-          },
-          {
-            "url": "https://nav.newzone.top/",
-            "logo": "https://nav.newzone.top/wp-content/logo/navfavicon.svg",
-            "title": "开源工具导航",
-            "desc": "众多开源工具"
-          }
-        ]
-      },
-      {
-        "name": "其他站长的导航",
-        "en_name": "Design FM",
-        "web": [
-          {
-            "url": "https://tool.liumingye.cn/",
-            "logo": "assets/images/logos/lmy.png",
-            "title": "刘明野的工具箱",
-            "desc": "他的工具也很好用"
-          },
-          {
-            "url": "https://pangniao.net/",
-            "logo": "assets/images/logos/pn.jpg",
-            "title": "胖鸟网",
-            "desc": "技术和软件博客"
-          },
-          {
-            "url": "https://www.psvmc.cn/tags/",
-            "logo": "assets/images/logos/psvmc.jpg",
-            "title": "码客",
-            "desc": "技术博客"
-          },
-          {
-            "url": "https://dajiayouxuan.com/navs",
-            "logo": "assets/images/logos/chuangke.jpg",
-            "title": "创客工具",
-            "desc": "聚合类"
-          },
-          {
-            "url": "https://www.aboutppt.com/",
-            "logo": "//s2.loli.net/2023/04/11/rkBnoM3JtDRwf8q.png",
-            "title": "演示设计网站导航",
-            "desc": "聚合类"
-          },
-          {
-            "url": "https://www.widiz.com/",
-            "logo": "//s2.loli.net/2023/04/11/qspR4niFYDBMUrE.png",
-            "title": "吾爱导航",
-            "desc": "大综合网站"
-          },
-          {
-            "url": "https://www.toolbon.com/",
-            "logo": "//s2.loli.net/2023/05/23/IWJR8yzLZ5U1rme.png",
-            "title": "优工具",
-            "desc": "具有开发接口，摸鱼神器，在线运行ps等"
+            "logo": "assets/images/logos/remote/remote-14.png",
+            "title": "Reddit",
+            "desc": "聚合兴趣社区讨论与热门资讯"
           }
         ]
       }
@@ -343,142 +145,94 @@
         "web": [
           {
             "url": "https://www.wrmdjyx.cn/",
-            "logo": "assets/images/logos/laogun.png",
-            "title": "老滚万人迷",
-            "desc": "老滚万人迷，海量游戏下载网站,他控制台好像开发就自动关闭了，可恨！！"
-          }
-        ]
-      },
-      {
-        "name": "视频",
-        "en_name": "Design FM",
-        "web": [
+            "logo": "assets/images/logos/curated/老滚万人迷.png",
+            "title": "乐多美百货网",
+            "desc": "提供单机游戏资讯、资源与攻略内容"
+          },
           {
-            "url": "https://www.yijia5.com/",
-            "logo": "//s2.loli.net/2023/04/11/YEIKBh1k42sMVDj.png",
-            "title": "全集网",
-            "desc": "免费视频网站"
+            "url": "https://www.fzgamer.com/",
+            "logo": "assets/images/logos/curated/方舟游戏.ico",
+            "title": "方舟游戏",
+            "desc": "提供单机游戏资源与试玩内容"
           }
         ]
       }
     ]
   },
   {
-    "name": "开发者工具",
+    "name": "其他站点",
     "en_name": "Tutorial",
     "icon": "linecons-pencil",
     "children": [
       {
-        "name": "服务器",
+        "name": "搜索工具",
         "en_name": "Design FM",
         "web": [
           {
-            "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
-            "logo": "assets/images/logos/github.png",
-            "title": "服务器自托管合集",
-            "desc": "服务器自托管合集"
+            "url": "https://www.zoomeye.org/",
+            "logo": "assets/images/logos/remote/remote-10.png",
+            "title": "ZoomEye",
+            "desc": "网络空间资产搜索与安全研究平台"
           },
           {
-            "url": "https://www.nazhumi.com/",
-            "logo": "assets/images/logos/medialoot.png",
-            "title": "哪煮米",
-            "desc": "一个可以查看所有低价域名的合集网站"
+            "url": "https://www.fastsoso.cc/",
+            "logo": "assets/images/logos/remote/remote-11.png",
+            "title": "FastSoso",
+            "desc": "聚合网盘资源的在线搜索工具"
           },
           {
-            "url": "//www.zhujipingce.cc",
-            "logo": "assets/images/logos/medialoot.png",
-            "title": "主机评测",
-            "desc": "同标题"
+            "url": "https://www.magicalsearch.top/main",
+            "logo": "assets/images/logos/remote/remote-12.png",
+            "title": "奇妙搜索",
+            "desc": "搜索网盘、磁力与影音资源的工具"
           }
         ]
       },
       {
-        "name": "视频",
-        "en_name": "Design FM",
-        "web": []
-      }
-    ]
-  },
-  {
-    "name": "博主网站",
-    "en_name": "Tutorial",
-    "icon": "linecons-pencil",
-    "children": [
-      {
-        "name": "站长管理工具",
-        "en_name": "Design FM",
-        "web": [
-          {
-            "url": "https://search.google.com/search-console/about",
-            "logo": "https://s2.loli.net/2023/06/01/lNo1UiTuS3jCtd5.png",
-            "title": "google站长工具",
-            "desc": "google站长工具"
-          },
-          {
-            "url": "https://tool.chinaz.com/",
-            "logo": "https://s2.loli.net/2023/06/01/8LPx4mzrAK2EBH7.png",
-            "title": "站长工具",
-            "desc": "很多管理网站的工具"
-          }
-        ]
-      },
-      {
-        "name": "工具类",
+        "name": "合集类",
         "en_name": "Design Guidelines",
         "web": [
           {
-            "url": "http://tengyao.byethost15.com/word/",
-            "logo": "assets/images/logos/xinchangjing.png",
-            "title": "个人wordpress站点",
-            "desc": "个人wordpress站点"
+            "url": "https://233heji.com/",
+            "logo": "assets/images/logos/curated/合集网-信息资源大全.png",
+            "title": "合集网",
+            "desc": "汇集 AI、资源、游戏等主题导航"
           },
           {
-            "url": "http://tengyao.byethost15.com/wiki/",
-            "logo": "assets/images/logos/xinchangjing.png",
-            "title": "个人内容管理",
-            "desc": "个人内容管理站点"
+            "url": "http://ziyuanhuishequ.ysepan.com/",
+            "logo": "assets/images/logos/curated/资源汇社区资源库.ico",
+            "title": "资源汇社区资源库",
+            "desc": "收录多类网站与资源导航合集"
+          },
+          {
+            "url": "https://devurls.com/",
+            "logo": "assets/images/logos/curated/devurls.png",
+            "title": "DevURLs",
+            "desc": "聚合主流编程网站热门技术资讯"
+          },
+          {
+            "url": "https://nav.newzone.top/",
+            "logo": "assets/images/logos/curated/开源工具导航.svg",
+            "title": "开源工具导航",
+            "desc": "收录开源应用与效率工具的导航站"
+          },
+          {
+            "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+            "logo": "assets/images/logos/github.png",
+            "title": "Awesome Selfhosted",
+            "desc": "GitHub 上的自托管软件与服务清单"
           }
         ]
       },
       {
-        "name": "游戏类",
+        "name": "其他站长的导航",
         "en_name": "Design FM",
         "web": [
           {
-            "url": "http://gongfu.onestyle.fun/",
-            "logo": "assets/images/logos/resetgongfu.png",
-            "title": "重启功夫派",
-            "desc": "基于淘米网功夫派游戏的复刻，游戏目前支持wasd移动，j攻击k跳跃以及多种技能连招"
-          },
-          {
-            "url": "https://pan.baidu.com/s/1Ql0ea6atdAvVgp1ETNiQRQ?pwd=h8rw",
-            "logo": "assets/images/logos/resetgongfu.png",
-            "title": "重启功夫派游戏安装包（百度网盘）",
-            "desc": "基于淘米网功夫派游戏的复刻，游戏目前支持wasd移动，j攻击k跳跃以及多种技能连招"
-          }
-        ]
-      },
-      {
-        "name": "个人博客",
-        "en_name": "UX",
-        "web": [
-          {
-            "url": "https://logseq.onestyle.top/",
-            "logo": "assets/images/logos/gitee.png",
-            "title": "个人logseq日志",
-            "desc": "自用的logseq日志，记录一些日常的事情"
-          },
-          {
-            "url": "http://wang-tengyao.gitee.io/",
-            "logo": "assets/images/logos/gitee.png",
-            "title": "个人gitee博客",
-            "desc": "博主技术博客，写的超烂，劝你别看（看不了就是没过审）"
-          },
-          {
-            "url": "https://snake34475.github.io/",
-            "logo": "assets/images/logos/github.png",
-            "title": "个人github博客",
-            "desc": "gitee的镜像（前面三个访问不了这个必定能访问）"
+            "url": "https://www.widiz.com/",
+            "logo": "assets/images/logos/remote/remote-21.png",
+            "title": "吾爱导航",
+            "desc": "汇集常用网站与在线工具的导航站"
           }
         ]
       }
