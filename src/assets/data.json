@@ -37,6 +37,12 @@
             "logo": "assets/images/logos/chatgpt.png",
             "title": "Awesome AI Tools",
             "desc": "GitHub 上整理的 AI 实用工具清单"
+          },
+          {
+            "url": "https://makeplay.ai/",
+            "logo": "assets/images/logos/curated/makeplay.png",
+            "title": "MakePlay",
+            "desc": "AI 视频与动画生成创作平台"
           }
         ]
       }
@@ -137,6 +143,24 @@
             "desc": "聚合兴趣社区讨论与热门资讯"
           }
         ]
+      },
+      {
+        "name": "编程学习",
+        "en_name": "Design FM",
+        "web": [
+          {
+            "url": "https://www.codefather.cn/course/1789189862986850306/section/1912024009574629377",
+            "logo": "assets/images/logos/curated/codefather-course.jpg",
+            "title": "CodeFather 课程",
+            "desc": "面向开发者的实战编程课程平台"
+          },
+          {
+            "url": "https://ebookfoundation.github.io/free-programming-books/books/free-programming-books-zh.html",
+            "logo": "assets/images/logos/curated/free-programming-books.ico",
+            "title": "Free Programming Books 中文",
+            "desc": "免费的编程电子书中文版合集清单"
+          }
+        ]
       }
     ]
   },
@@ -160,6 +184,49 @@
             "logo": "assets/images/logos/curated/方舟游戏.ico",
             "title": "方舟游戏",
             "desc": "提供单机游戏资源与试玩内容"
+          },
+          {
+            "url": "https://game.chronodivide.com/",
+            "logo": "assets/images/logos/curated/chrono-divide.ico",
+            "title": "Chrono Divide 网页红警",
+            "desc": "网页版《红色警戒》即时战略在线游戏"
+          },
+          {
+            "url": "https://baoku.one/",
+            "logo": "assets/images/logos/curated/宝库.svg",
+            "title": "宝库",
+            "desc": "聚合游戏与各类资源的在线平台"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "日漫看番",
+    "en_name": "Tutorial",
+    "icon": "linecons-pencil",
+    "children": [
+      {
+        "name": "看番工具",
+        "en_name": "Design FM",
+        "web": [
+          {
+            "url": "https://www.omoo.app/",
+            "logo": "assets/images/logos/curated/omoo.png",
+            "title": "Omoo 追番",
+            "desc": "在线观看日本动漫的免费追番平台"
+          },
+          {
+            "url": "https://guyuplan.com/",
+            "logo": "fallback-logo.svg",
+            "title": "谷雨计划",
+            "desc": "提供动漫剧集资源与追番服务的网站"
+          },
+          {
+            "url": "https://github.com/Predidit/Kazumi",
+            "logo": "assets/images/logos/github.png",
+            "title": "Kazumi",
+            "desc": "开源的第三方动漫聚合播放工具"
           }
         ]
       }
@@ -185,12 +252,6 @@
             "logo": "assets/images/logos/remote/remote-11.png",
             "title": "FastSoso",
             "desc": "聚合网盘资源的在线搜索工具"
-          },
-          {
-            "url": "https://www.magicalsearch.top/main",
-            "logo": "assets/images/logos/remote/remote-12.png",
-            "title": "奇妙搜索",
-            "desc": "搜索网盘、磁力与影音资源的工具"
           }
         ]
       },
@@ -227,18 +288,6 @@
             "logo": "assets/images/logos/github.png",
             "title": "Awesome Selfhosted",
             "desc": "GitHub 上的自托管软件与服务清单"
-          }
-        ]
-      },
-      {
-        "name": "其他站长的导航",
-        "en_name": "Design FM",
-        "web": [
-          {
-            "url": "https://www.widiz.com/",
-            "logo": "assets/images/logos/remote/remote-21.png",
-            "title": "吾爱导航",
-            "desc": "汇集常用网站与在线工具的导航站"
           }
         ]
       }
