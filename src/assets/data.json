@@ -45,6 +45,24 @@
             "desc": "AI 视频与动画生成创作平台"
           }
         ]
+      },
+      {
+        "name": "AI 资讯",
+        "en_name": "AI News",
+        "web": [
+          {
+            "url": "https://www.ainav.cn/news/",
+            "logo": "assets/images/logos/curated/ai-navigation.png",
+            "title": "AI Navigation 新闻",
+            "desc": "AI 导航站整理的行业资讯与动态"
+          },
+          {
+            "url": "https://ai-bot.cn/daily-ai-news/",
+            "logo": "assets/images/logos/curated/ai-daily.png",
+            "title": "AI 日报",
+            "desc": "每日更新的 AI 新闻与产品动态"
+          }
+        ]
       }
     ]
   },
