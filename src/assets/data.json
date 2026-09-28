@@ -187,6 +187,18 @@
         ]
       },
       {
+        "name": "技术社区",
+        "en_name": "Tech Community",
+        "web": [
+          {
+            "url": "https://www.v2ex.com/go/create",
+            "logo": "fallback-logo.svg",
+            "title": "V2EX",
+            "desc": "创意工作者与技术爱好者的中文社区"
+          }
+        ]
+      },
+      {
         "name": "编程学习",
         "en_name": "Coding Learning",
         "web": [
