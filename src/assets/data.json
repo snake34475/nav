@@ -5,15 +5,21 @@
     "icon": "linecons-pencil",
     "children": [
       {
-        "name": "ai技术交流网站",
-        "en_name": "Design FM",
+        "name": "模型平台",
+        "en_name": "AI Models",
         "web": [
           {
             "url": "https://huggingface.co/models",
             "logo": "assets/images/logos/remote/remote-07.png",
             "title": "Hugging Face",
             "desc": "开源 AI 模型、数据集与应用协作平台"
-          },
+          }
+        ]
+      },
+      {
+        "name": "社区与清单",
+        "en_name": "AI Community",
+        "web": [
           {
             "url": "https://bbs.allaitools.cn/",
             "logo": "assets/images/logos/remote/remote-08.png",
@@ -21,22 +27,52 @@
             "desc": "面向 AI 爱好者的中文提示词交流社区"
           },
           {
-            "url": "https://www.aishort.top/?tags=code",
-            "logo": "fallback-logo.svg",
-            "title": "AI Short",
-            "desc": "提供 ChatGPT 与 DeepSeek 提示词模板"
+            "url": " https://github.com/ikaijua/Awesome-AITools/blob/main/README-CN.md",
+            "logo": "assets/images/logos/chatgpt.png",
+            "title": "Awesome AI Tools",
+            "desc": "GitHub 上整理的 AI 实用工具清单"
           },
           {
             "url": "https://cc.ai55.cc/",
             "logo": "assets/images/logos/github.png",
             "title": "ChatGPT 镜像汇总",
             "desc": "收录可访问的 ChatGPT 镜像服务入口"
+          }
+        ]
+      },
+      {
+        "name": "AI 工具",
+        "en_name": "AI Tools",
+        "web": [
+          {
+            "url": "https://www.aishort.top/?tags=code",
+            "logo": "fallback-logo.svg",
+            "title": "AI Short",
+            "desc": "提供 ChatGPT 与 DeepSeek 提示词模板"
           },
           {
-            "url": " https://github.com/ikaijua/Awesome-AITools/blob/main/README-CN.md",
-            "logo": "assets/images/logos/chatgpt.png",
-            "title": "Awesome AI Tools",
-            "desc": "GitHub 上整理的 AI 实用工具清单"
+            "url": "https://makeplay.ai/",
+            "logo": "assets/images/logos/curated/makeplay.png",
+            "title": "MakePlay",
+            "desc": "AI 视频与动画生成创作平台"
+          }
+        ]
+      },
+      {
+        "name": "AI 资讯",
+        "en_name": "AI News",
+        "web": [
+          {
+            "url": "https://www.ainav.cn/news/",
+            "logo": "assets/images/logos/curated/ai-navigation.png",
+            "title": "AI Navigation 新闻",
+            "desc": "AI 导航站整理的行业资讯与动态"
+          },
+          {
+            "url": "https://ai-bot.cn/daily-ai-news/",
+            "logo": "assets/images/logos/curated/ai-daily.png",
+            "title": "AI 日报",
+            "desc": "每日更新的 AI 新闻与产品动态"
           }
         ]
       }
@@ -92,14 +128,8 @@
     "children": [
       {
         "name": "阅读",
-        "en_name": "Design FM",
+        "en_name": "Reading",
         "web": [
-          {
-            "url": "https://rebang.today/?tab=weread",
-            "logo": "assets/images/logos/curated/热榜.ico",
-            "title": "今日热榜",
-            "desc": "聚合知乎、微博等平台实时热搜榜单"
-          },
           {
             "url": "https://zh.sov101.ru/",
             "logo": "fallback-logo.svg",
@@ -113,17 +143,35 @@
             "desc": "聚合图书资源的在线检索工具"
           },
           {
-            "url": "https://www.zhihu.com/knowledge-plan/hot-question/hot/0/day",
-            "logo": "assets/images/logos/curated/知乎热搜.png",
-            "title": "知乎热榜",
-            "desc": "汇集知乎社区当日热门问题与讨论"
-          },
-          {
             "url": "https://kox.moe/",
             "logo": "assets/images/logos/curated/kox-moe.ico",
             "title": "Kmoe 漫画",
             "desc": "提供 Kindle 与 EPUB 格式漫画资源"
+          }
+        ]
+      },
+      {
+        "name": "热榜",
+        "en_name": "Trending",
+        "web": [
+          {
+            "url": "https://rebang.today/?tab=weread",
+            "logo": "assets/images/logos/curated/热榜.ico",
+            "title": "今日热榜",
+            "desc": "聚合知乎、微博等平台实时热搜榜单"
           },
+          {
+            "url": "https://www.zhihu.com/knowledge-plan/hot-question/hot/0/day",
+            "logo": "assets/images/logos/curated/知乎热搜.png",
+            "title": "知乎热榜",
+            "desc": "汇集知乎社区当日热门问题与讨论"
+          }
+        ]
+      },
+      {
+        "name": "海外社区",
+        "en_name": "Overseas Community",
+        "web": [
           {
             "url": "https://www.quora.com",
             "logo": "assets/images/logos/remote/remote-13.png",
@@ -137,6 +185,36 @@
             "desc": "聚合兴趣社区讨论与热门资讯"
           }
         ]
+      },
+      {
+        "name": "技术社区",
+        "en_name": "Tech Community",
+        "web": [
+          {
+            "url": "https://www.v2ex.com/go/create",
+            "logo": "fallback-logo.svg",
+            "title": "V2EX",
+            "desc": "创意工作者与技术爱好者的中文社区"
+          }
+        ]
+      },
+      {
+        "name": "编程学习",
+        "en_name": "Coding Learning",
+        "web": [
+          {
+            "url": "https://www.codefather.cn/course/1789189862986850306/section/1912024009574629377",
+            "logo": "assets/images/logos/curated/codefather-course.jpg",
+            "title": "CodeFather 课程",
+            "desc": "面向开发者的实战编程课程平台"
+          },
+          {
+            "url": "https://ebookfoundation.github.io/free-programming-books/books/free-programming-books-zh.html",
+            "logo": "assets/images/logos/curated/free-programming-books.ico",
+            "title": "Free Programming Books 中文",
+            "desc": "免费的编程电子书中文版合集清单"
+          }
+        ]
       }
     ]
   },
@@ -147,7 +225,7 @@
     "children": [
       {
         "name": "游戏类",
-        "en_name": "Design FM",
+        "en_name": "Games",
         "web": [
           {
             "url": "https://www.wrmdjyx.cn/",
@@ -160,6 +238,73 @@
             "logo": "assets/images/logos/curated/方舟游戏.ico",
             "title": "方舟游戏",
             "desc": "提供单机游戏资源与试玩内容"
+          },
+          {
+            "url": "https://game.chronodivide.com/",
+            "logo": "assets/images/logos/curated/chrono-divide.ico",
+            "title": "Chrono Divide 网页红警",
+            "desc": "网页版《红色警戒》即时战略在线游戏"
+          },
+          {
+            "url": "https://baoku.one/",
+            "logo": "assets/images/logos/curated/宝库.svg",
+            "title": "宝库",
+            "desc": "聚合游戏与各类资源的在线平台"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "日漫看番",
+    "en_name": "Tutorial",
+    "icon": "linecons-pencil",
+    "children": [
+      {
+        "name": "看番平台",
+        "en_name": "Anime Sites",
+        "web": [
+          {
+            "url": "https://www.omoo.app/",
+            "logo": "assets/images/logos/curated/omoo.png",
+            "title": "Omoo 追番",
+            "desc": "在线观看日本动漫的免费追番平台"
+          },
+          {
+            "url": "https://www.acgbox.link/",
+            "logo": "fallback-logo.svg",
+            "title": "ACG Box",
+            "desc": "ACG 动漫游戏资源的在线聚合盒子"
+          },
+          {
+            "url": "https://www.acgfans.me/",
+            "logo": "assets/images/logos/curated/acgfans.ico",
+            "title": "AcgFans",
+            "desc": "提供动漫与 ACG 资源分享的社区"
+          },
+          {
+            "url": "https://dh.mengdaohang.com/",
+            "logo": "assets/images/logos/curated/mengdaohang.png",
+            "title": "萌导航",
+            "desc": "ACG 综合导航与资源收录平台"
+          },
+          {
+            "url": "https://guyuplan.com/",
+            "logo": "fallback-logo.svg",
+            "title": "谷雨计划",
+            "desc": "提供动漫剧集资源与追番服务的网站"
+          }
+        ]
+      },
+      {
+        "name": "播放工具",
+        "en_name": "Anime Tools",
+        "web": [
+          {
+            "url": "https://github.com/Predidit/Kazumi",
+            "logo": "assets/images/logos/github.png",
+            "title": "Kazumi",
+            "desc": "开源的第三方动漫聚合播放工具"
           }
         ]
       }
@@ -171,8 +316,8 @@
     "icon": "linecons-pencil",
     "children": [
       {
-        "name": "搜索工具",
-        "en_name": "Design FM",
+        "name": "搜索与合集",
+        "en_name": "Search & Collections",
         "web": [
           {
             "url": "https://www.zoomeye.org/",
@@ -186,18 +331,6 @@
             "title": "FastSoso",
             "desc": "聚合网盘资源的在线搜索工具"
           },
-          {
-            "url": "https://www.magicalsearch.top/main",
-            "logo": "assets/images/logos/remote/remote-12.png",
-            "title": "奇妙搜索",
-            "desc": "搜索网盘、磁力与影音资源的工具"
-          }
-        ]
-      },
-      {
-        "name": "合集类",
-        "en_name": "Design Guidelines",
-        "web": [
           {
             "url": "https://233heji.com/",
             "logo": "assets/images/logos/curated/合集网-信息资源大全.png",
@@ -227,18 +360,6 @@
             "logo": "assets/images/logos/github.png",
             "title": "Awesome Selfhosted",
             "desc": "GitHub 上的自托管软件与服务清单"
-          }
-        ]
-      },
-      {
-        "name": "其他站长的导航",
-        "en_name": "Design FM",
-        "web": [
-          {
-            "url": "https://www.widiz.com/",
-            "logo": "assets/images/logos/remote/remote-21.png",
-            "title": "吾爱导航",
-            "desc": "汇集常用网站与在线工具的导航站"
           }
         ]
       }
