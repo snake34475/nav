@@ -9,6 +9,7 @@ const categorySymbols: Record<string, string> = {
   娱乐: '◌',
   开发者工具: '⌘',
   博主网站: '⌂',
+  我的页面: '★',
 }
 
 export const slugify = (value: string): string =>
@@ -29,6 +30,35 @@ const element = <K extends keyof HTMLElementTagNameMap>(
 
 const groupId = (category: NavCategory, group: NavGroup) => slugify(`${category.name.zh}-${group.name.zh}`)
 
+// 生成卡片 logo：
+// - http(s) 绝对地址 → 直接作为图片 src（用于远程清单里的外链图片）
+// - 短 emoji / 符号（不含点号和斜杠、不超过 4 个码点）→ 渲染成文本
+// - 其余按项目内相对资源路径处理（assets/... 等，行为与原来一致）
+const createLogo = (logo: string): HTMLElement => {
+  const onImgError = (img: HTMLImageElement) => {
+    img.addEventListener('error', () => {
+      if (!img.src.endsWith(fallbackLogo)) img.src = assetUrl(fallbackLogo)
+    })
+  }
+  if (/^https?:\/\//i.test(logo)) {
+    const remoteImage = element('img', 'site-logo')
+    remoteImage.src = logo
+    remoteImage.alt = ''
+    remoteImage.loading = 'lazy'
+    onImgError(remoteImage)
+    return remoteImage
+  }
+  if (!logo.includes('.') && !logo.startsWith('/') && Array.from(logo).length <= 4) {
+    return element('span', 'site-logo site-logo-emoji', logo)
+  }
+  const image = element('img', 'site-logo')
+  image.src = assetUrl(logo)
+  image.alt = ''
+  image.loading = 'lazy'
+  onImgError(image)
+  return image
+}
+
 const createLinkCard = (link: NavLink): HTMLAnchorElement => {
   const card = element('a', 'site-card')
   card.href = link.url
@@ -36,13 +66,7 @@ const createLinkCard = (link: NavLink): HTMLAnchorElement => {
   card.rel = 'noopener noreferrer'
   card.setAttribute('aria-label', `在新标签页打开 ${link.title.zh}`)
 
-  const image = element('img', 'site-logo')
-  image.src = assetUrl(link.logo)
-  image.alt = ''
-  image.loading = 'lazy'
-  image.addEventListener('error', () => {
-    if (!image.src.endsWith(fallbackLogo)) image.src = assetUrl(fallbackLogo)
-  })
+  const image = createLogo(link.logo)
 
   const copy = element('span', 'site-copy')
   copy.append(element('strong', 'site-title', link.title.zh), element('span', 'site-description', link.description.zh))
